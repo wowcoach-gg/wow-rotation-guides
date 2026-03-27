@@ -24,7 +24,7 @@ maintenanceBuffs:
   spellName: Consecration
   targetUptimePct: 90
   importance: high
-  coachingTip: 'Stand in Consecration for Mastery: Divine Bulwark block bonus and Sanctuary DR.'
+  coachingTip: 'Stand in Consecration for Sanctuary DR.'
 - spellId: 0
   spellName: Shake the Heavens
   targetUptimePct: 0
