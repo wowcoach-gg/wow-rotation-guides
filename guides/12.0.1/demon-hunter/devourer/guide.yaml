@@ -4,9 +4,6 @@ specName: Devourer
 role: DPS
 patch: "12.0.1"
 guideVersion: 2
-sources:
-  - "Icy Veins 12.0.1 Devourer Demon Hunter Rotation Guide"
-
 resourceManagement:
   primaryResource: Fury
   secondaryResource: Soul Fragments

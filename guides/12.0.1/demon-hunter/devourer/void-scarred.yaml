@@ -5,10 +5,6 @@ role: DPS
 heroTalent: Void-Scarred
 patch: "12.0.1"
 guideVersion: 2
-sources:
-  - "Icy Veins 12.0.1 Devourer Demon Hunter Rotation Guide"
-  - "Method.gg 12.0.1 Devourer Demon Hunter Playstyle & Rotation"
-  - "Archon.gg Mythic Raid Data (March 2026)"
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # IMPORTANT: Void-Scarred has TWO distinct builds depending on gear (tier set).
