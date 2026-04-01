@@ -24,7 +24,7 @@ maintenanceBuffs:
   spellName: Consecration
   targetUptimePct: 90
   importance: high
-  coachingTip: 'Stand in Consecration for Mastery: Divine Bulwark block bonus and Sanctuary DR.'
+  coachingTip: 'Stand in Consecration for Sanctuary DR.'
 - spellId: 0
   spellName: Shake the Heavens
   targetUptimePct: 0
@@ -38,8 +38,7 @@ tankingGuide:
     1. Maintain Shield of the Righteous while actively tanking. Provides Armor based on Strength.
        Off-GCD — weave between generators. Use at 4-5 Holy Power, avoid at exactly 3 HP to keep
        HP available for emergency Word of Glory.
-    2. Stand in Consecration for Mastery: Divine Bulwark (block and spell block bonus) and
-       Sanctuary (5% DR that lingers 4s after leaving). Recast when repositioning.
+    2. Stand in Consecration for Mastery: Divine Bulwark block bonus and Sanctuary (5% DR that lingers 4s after leaving). Recast when repositioning.
     3. Use Word of Glory with Shining Light charges when health is low. Every 3 SotR casts grants
        a free Word of Glory.
     4. Sacrosanct Crusade: Casting Divine Toll and Hammer of Light grants a 15% HP shield and
@@ -146,7 +145,7 @@ concepts:
 commonMistakes:
 - Overcapping Holy Power instead of spending on Shield of the Righteous.
 - Letting Shield of the Righteous uptime drop while actively tanking.
-- Standing outside Consecration, losing Mastery block bonus and Sanctuary DR.
+- Standing outside Consecration, Sanctuary DR.
 - Not using Divine Toll on cooldown, delaying Hammer of Light windows.
 - Missing Hammer of Light after Divine Toll (only 12-second window).
 - Using Word of Glory at high health, wasting HP that should go to mitigation.

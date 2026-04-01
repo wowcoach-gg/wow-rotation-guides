@@ -32,7 +32,7 @@ maintenanceBuffs:
   targetUptimePct: 90
   importance: medium
   coachingTip: 'Applied via Execute (with talent) or Demolish (via Decimator). Required for Execute to be
-    worth casting. Bloodborne also requires it.'
+    worth casting. Talent bloodborne increases damage'
 
 tankingGuide:
   survivalPriority: |-
@@ -87,7 +87,7 @@ rotation:
     7. Cast Shield Slam on cooldown (reduces Demolish CD via Colossal Might).
     8. Cast Thunder Clap to trigger Phalanx (Apex) buffs.
     9. Cast Wrecking Throw on cooldown (or Shattering Throw if talented).
-    10. Cast Execute ONLY if: Deep Wounds or Bloodborne is talented, Shield Slam AND Thunder Clap are on CD, AND you have 40+ Rage.
+    10. Cast Execute ONLY if: Deep Wounds is talented, Shield Slam AND Thunder Clap are on CD, AND you have 40+ Rage.
     11. Cast Revenge if Shield Slam and Thunder Clap are on CD (deals more damage than Thunder Clap for Colossus).
     Ignore Pain takes priority over ANY ability if next cast would cap Rage.
   aoe: |-
@@ -158,7 +158,7 @@ concepts:
 - 'Demolish Mechanics: Channeled ability. Must position enemies in front. Movement cancels channel. Grants
   stun/knockback immunity during channel. Use to avoid forced movement mechanics.'
 - 'Decimator: Demolish applies Deep Wounds to all targets hit. Critical for AoE setup.'
-- 'Execute Conditions (Colossus): Only cast if (1) Deep Wounds or Bloodborne is talented, (2) Shield Slam
+- 'Execute Conditions (Colossus): Only cast if (1) Deep Wounds is talented, (2) Shield Slam
   AND Thunder Clap are both on CD, (3) 40+ Rage. Otherwise skip it.'
 - 'Revenge vs Thunder Clap: As Colossus, Revenge deals more damage than Thunder Clap. Spend excess Rage on
   Revenge for damage when survivability is not a concern.'
