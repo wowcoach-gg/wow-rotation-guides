@@ -134,6 +134,7 @@ concepts: |
   - Trickster Nuance: It is optimal to cast Shadowstrike at full CP if it activates the Ancient Arts buff (shadowy glow).
   - Energy Management: Outside of Shadow Dance, Energy is scarce; during Shadow Dance, Relentless Strikes and Shadow Techniques provide enough to spam globals.
   - Mastery (Executioner): Increases the damage of finishing moves.
+  - Backstab/Shadowstrike Transform: During Shadow Dance or Stealth, Backstab (spell 53) automatically becomes Shadowstrike (spell 185438). They share the same keybind. In combat logs, casts during Shadow Dance appear as Shadowstrike, NOT Backstab. If you see Backstab casts in the log, they occurred OUTSIDE of Shadow Dance windows — this is normal filler behavior, not an error.
 
 commonMistakes:
   - 'Casting Shadow Dance when Shadow Blades has less than 10 seconds remaining on cooldown'
