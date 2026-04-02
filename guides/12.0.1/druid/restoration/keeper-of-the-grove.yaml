@@ -103,6 +103,10 @@ concepts:
 - 'Ramping: Core playstyle — spread Rejuvenations 5-10 seconds before major mechanics, then Wild Growth + Swiftmend + Tranquility/Convoke
   for burst.'
 - 'Protective Growth: KotG talent providing additional defensive value while Regrowth HoT is active on yourself.'
+- 'Sylvan Beckoning: Your periodic heals (Rejuvenation, Lifebloom, Efflorescence ticks) can empower your
+  next Swiftmend to summon a Dryad that casts a mini-Tranquility (10% of Tranquility healing). This does
+  NOT involve Eclipse, Wrath, or Starfire — those are Balance Druid mechanics. Simply maintain your HoTs
+  and cast Swiftmend on cooldown to proc Dryads naturally.'
 - 'Dream Surge: AoE healing creates 2 healing petals (nerfed from 3). Enhanced by Power of the Dream.'
 - 'KotG vs Wildstalker: KotG is go-to for raiding (AoE healing + cooldown strength). Wildstalker is generally better for M+
   (ST healing + Cat Form DPS).'
