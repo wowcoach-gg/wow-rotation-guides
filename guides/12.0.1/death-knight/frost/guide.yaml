@@ -77,7 +77,7 @@ cooldowns: |
   - Reaper's Mark (45s): Align with every Pillar of Frost window. Generates Killing Machines via Exterminate procs.
   - Pillar of Frost (45s): Grants 30% Strength for 12s. Use on cooldown, ideally macroed with off-GCD abilities.
   - Remorseless Winter (Variable): Deals AoE damage and slows. With Frozen Dominion, it casts automatically with Pillar. Otherwise, use on cooldown and align with Pillar.
-  - Empower Rune Weapon (2min, 2 charges): Off-GCD resource generator. Use to avoid naked Obliterates or to maintain resources during Pillar.
+  - Empower Rune Weapon (30s recharge, 2 charges): Off-GCD resource generator. Generates a Killing Machine proc and 40 Runic Power per use. Use frequently to avoid naked Obliterates. Tier set (4pc) makes it recharge 20% faster and Pillar of Frost grants 1 extra charge. This is a core rotational button — use on cooldown, not a long-term cooldown to hold.
   - Breath of Sindragosa (90s): Costs 60 RP to start. Duration is extended by consuming KM and Rime procs. Use with Obliteration.
   - Frostwyrm's Fury (90s): Major burst damage and stun. Recastable at 50% effectiveness within 45s via Apex talents. Use both charges within Pillar windows.
   - Obliteration (Talent): During Pillar, Frost Strike/Glacial Advance/Howling Blast generate KM procs. Follow a "weaving" pattern: Generator -> KM Spender.

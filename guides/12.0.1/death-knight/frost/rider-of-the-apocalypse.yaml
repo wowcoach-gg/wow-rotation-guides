@@ -68,8 +68,10 @@ cooldowns:
   description: 'Massive Frost damage + 3s stun (Absolute Zero). Triggers Apocalypse Now for Rider, summoning
     Four Horsemen. Recast within 45s at 50% effectiveness. Use inside Pillar of Frost for Apex extensions.'
 - name: Empower Rune Weapon
-  cooldown: 2min
-  description: 'Off-GCD resource generator. Avoid casting Obliterates without KM procs.'
+  cooldown: 30s recharge, 2 charges
+  description: 'Instant off-GCD. Generates 1 Killing Machine proc + 40 RP per use. Core rotational button
+    — use frequently to avoid naked Obliterates. Tier set (4pc) recharges 20% faster; Pillar of Frost
+    grants 1 extra charge. Do NOT hold this ability.'
 - name: Breath of Sindragosa
   cooldown: 90s
   description: 'AoE damage with duration extended by consuming KM and Rime procs. Pool 60+ RP before.'

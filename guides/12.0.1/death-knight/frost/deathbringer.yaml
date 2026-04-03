@@ -81,8 +81,10 @@ cooldowns:
   description: 'Massive burst + 3s stun. Apex talents grant Haste, extend Pillar of Frost, and allow 50%
     recast within 45s.'
 - name: Empower Rune Weapon
-  cooldown: 2min
-  description: 'Instant off-GCD. Generates 1 Killing Machine proc + RP. Use to fill KM generation gaps.'
+  cooldown: 30s recharge, 2 charges
+  description: 'Instant off-GCD. Generates 1 Killing Machine proc + 40 RP per use. Core rotational button
+    — use frequently to avoid naked Obliterates. Tier set (4pc) recharges 20% faster; Pillar of Frost
+    grants 1 extra charge. Do NOT hold this ability.'
 
 concepts:
 - 'Reaper''s Mark Alignment: 45s CD matches Pillar of Frost perfectly. Always macro together for maximum
