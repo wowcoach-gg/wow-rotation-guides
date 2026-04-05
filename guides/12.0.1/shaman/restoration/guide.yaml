@@ -25,7 +25,7 @@ maintenanceBuffs:
     spellName: Healing Rain / Surging Totem
     targetUptimePct: 85
     importance: high
-    coachingTip: 'Keep Healing Rain (or Surging Totem if Totemic) active whenever the group is stacked. In Midnight, Healing Rain has an 18s duration and 18s cooldown.'
+    coachingTip: 'TRACKING NOTE: Healing Rain is a ground effect — it CANNOT be measured by get_buff_uptime. Do NOT report a percentage for it. Keep active whenever the group is stacked. In Midnight, Healing Rain has an 18s duration and 18s cooldown — near-100% uptime is achievable.'
 
 playstyles:
   - id: farseer

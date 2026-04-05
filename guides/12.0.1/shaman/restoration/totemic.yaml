@@ -28,8 +28,7 @@ maintenanceBuffs:
   spellName: Surging Totem
   targetUptimePct: 95
   importance: critical
-  coachingTip: Surging Totem replaces Healing Rain. It is your most important maintenance spell. Use Totemic Projection to
-    move it if the group moves.
+  coachingTip: 'TRACKING NOTE: Surging Totem is a ground effect — it CANNOT be measured by get_buff_uptime. Do NOT report a percentage for it. Surging Totem replaces Healing Rain. It is your most important maintenance spell. Use Totemic Projection to move it if the group moves.'
 - spellId: 0
   spellName: Skyfury
   targetUptimePct: 100
