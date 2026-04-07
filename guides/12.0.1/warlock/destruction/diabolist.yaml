@@ -38,39 +38,36 @@ rotation:
     3. Cast Shadowburn whenever available (usable on targets below 20% health or via Fiendish Cruelty procs).
     4. Cast Soul Fire when available if below 4 Soul Shards.
     5. Cast Chaos Bolt if you are about to cap Soul Shards (at 5 shards).
-    6. Cast Cataclysm on cooldown (if talented for Immolate refresh).
+    6. Cast Cataclysm on cooldown to refresh Immolate (if talented).
     7. Cast Infernal Bolt if below 4 Shards.
-    8. Cast Channel Demonfire whenever available.
+    8. Cast Channel Demonfire whenever available (if talented).
     9. Cast Conflagrate if you have 2 charges to avoid capping.
-    10. Cast Dimensional Rift at 3 charges to avoid overcapping.
-    11. Cast Conflagrate to generate Soul Shards.
-    12. Cast Incinerate to generate Soul Shards.
+    10. Cast Conflagrate to generate Soul Shards.
+    11. Cast Incinerate to generate Soul Shards.
   aoe: |
     1. Maintain Immolate on the main target.
     2. Cast Summon Infernal.
     3. Apply Immolate on any secondary target that will last a minimum of 10 seconds.
     4. Use Conflagrate on the main target to spread Immolate to nearby targets (via Roaring Blaze).
-    5. Cast Cataclysm on cooldown to apply mass Immolate.
+    5. Cast Cataclysm on cooldown to apply mass Immolate (if talented).
     6. Cast Shadowburn whenever available (especially during Fiendish Cruelty procs).
     7. Cast Chaos Bolt as your primary shard spender (Diabolist AoE relies on Chaos Bolt machine-gunning to trigger Diabolic Oculi and Ruination).
     8. Cast Soul Fire when available if below 4 shards.
     9. Apply Havoc to a secondary target to duplicate single-target spells.
-    10. Cast Channel Demonfire when available.
-    11. Cast Dimensional Rift at 3 charges to avoid overcapping.
-    12. Cast Conflagrate to generate Soul Shards and Backdraft stacks.
-    13. Cast Incinerate to generate Soul Shards.
+    10. Cast Channel Demonfire when available (if talented).
+    11. Cast Conflagrate to generate Soul Shards and Backdraft stacks.
+    12. Cast Incinerate to generate Soul Shards.
     Note: In Diabolist AoE builds, Rain of Fire is often ignored in favor of Chaos Bolt to maximize Diabolic Ritual summons and Oculi explosions.
   opener: |
     1. Pre-cast Soul Fire.
     2. Pre-cast Incinerate.
     3. Pre-cast Immolate.
-    4. Pre-cast Cataclysm.
-    5. Cast Dimensional Rift.
-    6. Cast Conflagrate.
-    7. Cast Summon Infernal.
-    8. Use trinkets and racials.
-    9. Cast Chaos Bolt.
-    10. Cast Conflagrate.
+    4. Pre-cast Cataclysm (if talented).
+    5. Cast Conflagrate.
+    6. Cast Summon Infernal.
+    7. Use trinkets and racials.
+    8. Cast Chaos Bolt.
+    9. Cast Conflagrate.
 cooldowns:
 - name: Summon Infernal
   cooldown: 2min
@@ -79,12 +76,9 @@ cooldowns:
   cooldown: 30s
   description: 'Duplicates single-target spells onto a second target at 60% effectiveness. Essential for cleave and shard
     generation.'
-- name: Cataclysm
+- name: Cataclysm (if talented)
   cooldown: 30s
   description: Used primarily to apply Immolate to all targets in an area.
-- name: Dimensional Rift
-  cooldown: 45s charge
-  description: Generates shards and deals fire damage. Keep from capping at 3 charges.
 - name: Dark Pact
   cooldown: 1min
   description: Strong personal shield. Use proactively before predictable damage.

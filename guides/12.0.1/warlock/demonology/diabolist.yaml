@@ -37,10 +37,10 @@ removedMechanics:
 - 'TYRANT DOES NOT BUFF DEMONS: Tyrant does NOT buff, extend, or empower your other demons. It deals its OWN damage that scales with how many demons are active.'
 rotation:
   singleTarget: |
-    1. Cast Grimoire: Imp Lord / Fel Ravager (whichever you talented). Highest damage-per-GCD cooldown.
+    1. Cast Grimoire: Imp Lord / Fel Ravager (if talented). Highest damage-per-GCD cooldown.
     2. Cast Summon Demonic Tyrant. Its damage scales dynamically (+10% per active Wild Imp and Dreadstalker). With Dominion of Argus, every 2nd Hand of Gul'dan during Tyrant summons an extra demon from a portal.
-    3. Cast Summon Doomguard. Its cooldown is reduced by spending Demonic Cores.
-    4. Cast Power Siphon with 2 or less Demonic Core and at least 2 Wild Imps out. Sacrifices 2 imps to grant 2 Demonic Core stacks.
+    3. Cast Summon Doomguard (if talented). Its cooldown is reduced by spending Demonic Cores.
+    4. Cast Power Siphon (if talented) with 2 or less Demonic Core and at least 2 Wild Imps out. Sacrifices 2 imps to grant 2 Demonic Core stacks.
     5. Cast Implosion with 6 Wild Imps out (only if To Hell and Back is talented). Spawns 1 Imp Gang Boss per 2 imps imploded.
     6. Cast Call Dreadstalkers whenever available. Costs 2 shards, summons your strongest standard demons.
     7. Cast Hand of Gul'dan if you have 4-5 Soul Shards. Always costs 3 shards, summons 3 Wild Imps.
@@ -49,10 +49,10 @@ rotation:
     10. Cast Shadow Bolt to generate Soul Shards (lowest priority filler).
   aoe: |
     Same priority as single target with these adjustments:
-    1. Cast Grimoire: Imp Lord / Fel Ravager.
+    1. Cast Grimoire: Imp Lord / Fel Ravager (if talented).
     2. Cast Summon Demonic Tyrant. Maximize Hand of Gul'dan casts during its window for Dominion of Argus portal summons.
-    3. Cast Summon Doomguard.
-    4. Cast Power Siphon with 2 or less Demonic Core and at least 2 Wild Imps out.
+    3. Cast Summon Doomguard (if talented).
+    4. Cast Power Siphon (if talented) with 2 or less Demonic Core and at least 2 Wild Imps out.
     5. Cast Implosion with 6 Wild Imps out. Core AoE ability — consumes imps for burst damage. With To Hell and Back, spawns Imp Gang Bosses to sustain the cycle.
     6. Cast Call Dreadstalkers whenever available.
     7. Cast Hand of Gul'dan if you have 4-5 Soul Shards.
@@ -61,11 +61,11 @@ rotation:
     10. Cast Shadow Bolt to generate Soul Shards.
   opener: |
     1. Pre-cast Demonbolt x2 (builds shards and Demonic Core before pull).
-    2. Pre-cast Power Siphon with 2 Wild Imps out.
+    2. Pre-cast Power Siphon with 2 Wild Imps out (if talented).
     3. Pre-cast Shadow Bolt.
     4. Cast Shadow Bolt.
-    5. Cast Summon Doomguard.
-    6. Cast Grimoire: Imp Lord / Fel Ravager.
+    5. Cast Summon Doomguard (if talented).
+    6. Cast Grimoire: Imp Lord / Fel Ravager (if talented).
     7. Cast Shadow Bolt x3-4 to fill shards.
     8. Cast Call Dreadstalkers.
     9. Cast Summon Demonic Tyrant (enter with 5 shards and 2+ Demonic Core ideally).
@@ -82,11 +82,11 @@ cooldowns:
   cooldown: Variable
   description: 'Cooldown is dynamically reduced by spending Demonic Cores. The more cores you consume, the
     faster Doomguard returns.'
-- name: 'Grimoire: Imp Lord / Fel Ravager'
+- name: 'Grimoire: Imp Lord / Fel Ravager (if talented)'
   cooldown: 1min
   description: 'Choice node. Imp Lord provides Singe Magic (dispel); Fel Ravager provides Spell Lock (interrupt).
     Both deal significant damage — highest priority cooldown.'
-- name: Power Siphon
+- name: Power Siphon (if talented)
   cooldown: 30s
   description: 'Sacrifices 2 Wild Imps to grant 2 Demonic Core stacks and buff Demonbolt by 30%. Use when
     at 2 or fewer Demonic Core stacks with 2+ imps active.'

@@ -9,7 +9,7 @@ resourceManagement:
   primaryResource: Soul Shards
   secondaryResource: Demonic Core
   resourceNotes: 'Soul Shards are the primary resource (max 5). Generate them with Shadow Bolt, Demonbolt,
-    and Infernal Bolt; spend them on Call Dreadstalkers (2 shards) and Hand of Gul''dan (always 3 shards).
+    and Infernal Bolt (Diabolist only); spend them on Call Dreadstalkers (2 shards) and Hand of Gul''dan (always 3 shards).
     Demonic Core is a secondary resource (max 4 stacks) that makes Demonbolt instant and deal 30% more damage.
     Wild Imps fading or being imploded have a 10% chance each to grant a Demonic Core stack.
     Overcapping shards or cores is a significant DPS loss. Always ensure you have 2 shards ready
@@ -53,36 +53,36 @@ removedMechanics: |
 
 rotation:
   singleTarget: |
-    1. Cast Grimoire: Imp Lord / Fel Ravager (whichever you talented). Highest damage-per-GCD cooldown.
+    1. Cast Grimoire: Imp Lord / Fel Ravager (if talented). Highest damage-per-GCD cooldown.
     2. Cast Summon Demonic Tyrant. Its damage scales dynamically (+10% per active Wild Imp and Dreadstalker). With Dominion of Argus, every 2nd Hand of Gul'dan during Tyrant summons an extra demon from a portal.
-    3. Cast Summon Doomguard. Its cooldown is reduced by spending Demonic Cores.
-    4. Cast Power Siphon with 2 or less Demonic Core and at least 2 Wild Imps out. Sacrifices 2 imps to grant 2 Demonic Core stacks.
+    3. Cast Summon Doomguard (if talented). Its cooldown is reduced by spending Demonic Cores.
+    4. Cast Power Siphon (if talented) with 2 or less Demonic Core and at least 2 Wild Imps out. Sacrifices 2 imps to grant 2 Demonic Core stacks.
     5. Cast Implosion with 6 Wild Imps out (only if To Hell and Back is talented). To Hell and Back spawns 1 Imp Gang Boss per 2 imps imploded, sustaining your AoE loop.
     6. Cast Call Dreadstalkers whenever available. Costs 2 shards, summons your strongest standard demons.
     7. Cast Hand of Gul'dan if you have 4-5 Soul Shards. Always costs 3 shards, summons 3 Wild Imps.
     8. Cast Demonbolt if you have 2+ stacks of Demonic Core. Instant cast, generates 2 shards, and deals 30% bonus damage.
-    9. Cast Infernal Bolt when at 2 or less Soul Shards. Preferred filler over Shadow Bolt when available.
+    9. Cast Infernal Bolt when at 2 or less Soul Shards (Diabolist only). Preferred filler over Shadow Bolt when available.
     10. Cast Shadow Bolt to generate Soul Shards (lowest priority filler).
   aoe: |
     Demonology has little variation between single-target and AoE. Same priority, with these adjustments:
-    1. Cast Grimoire: Imp Lord / Fel Ravager.
+    1. Cast Grimoire: Imp Lord / Fel Ravager (if talented).
     2. Cast Summon Demonic Tyrant. Maximize Hand of Gul'dan casts during its window for Dominion of Argus portal summons.
-    3. Cast Summon Doomguard.
-    4. Cast Power Siphon with 2 or less Demonic Core and at least 2 Wild Imps out.
+    3. Cast Summon Doomguard (if talented).
+    4. Cast Power Siphon (if talented) with 2 or less Demonic Core and at least 2 Wild Imps out.
     5. Cast Implosion with 6 Wild Imps out. Core AoE ability — consumes imps for burst AoE damage. With To Hell and Back, spawns Imp Gang Bosses to sustain the cycle.
     6. Cast Call Dreadstalkers whenever available.
     7. Cast Hand of Gul'dan if you have 4-5 Soul Shards.
     8. Cast Demonbolt if you have 2+ stacks of Demonic Core. Tab-target Demonbolt to different enemies to spread Doom.
-    9. Cast Infernal Bolt when at 2 or less Soul Shards.
+    9. Cast Infernal Bolt when at 2 or less Soul Shards (Diabolist only).
     10. Cast Shadow Bolt to generate Soul Shards.
   opener: |
     1. Pre-cast Demonbolt (builds Demonic Core stacks and shards before pull).
     2. Pre-cast Demonbolt.
-    3. Pre-cast Power Siphon with 2 Wild Imps out.
+    3. Pre-cast Power Siphon with 2 Wild Imps out (if talented).
     4. Pre-cast Shadow Bolt.
     5. Cast Shadow Bolt.
-    6. Cast Summon Doomguard.
-    7. Cast Grimoire: Imp Lord / Fel Ravager.
+    6. Cast Summon Doomguard (if talented).
+    7. Cast Grimoire: Imp Lord / Fel Ravager (if talented).
     8. Cast Shadow Bolt x3-4 to fill shards.
     9. Cast Call Dreadstalkers.
     10. Cast Summon Demonic Tyrant (enter with 5 shards and 2+ Demonic Core ideally).
@@ -93,9 +93,9 @@ rotation:
 cooldowns: |
   - Summon Demonic Tyrant (2min): Main cooldown. Lasts 20s. Damage scales dynamically by +10% per active Wild Imp and Dreadstalker. Does NOT buff or extend your demons — it deals its own damage based on demon count. With Dominion of Argus, every 2nd Hand of Gul'dan during Tyrant summons a portal demon. Focus on Hand of Gul'dan spam during this window.
   - Summon Doomguard: Offensive cooldown. Cooldown is dynamically reduced by spending Demonic Cores — the more cores you consume, the faster Doomguard returns.
-  - Grimoire: Imp Lord / Fel Ravager (1min): Choice node. Imp Lord provides Singe Magic (dispel); Fel Ravager provides an extra interrupt/Spell Lock. Both deal significant damage.
-  - Power Siphon (30s): Consumes 2 Wild Imps to grant 2 Demonic Core stacks and buff Demonbolt by 30%. Use when at 2 or fewer Demonic Core stacks with 2+ imps active.
-  - Infernal Bolt: Replaces Shadow Bolt as the preferred filler when available. Higher damage and better shard generation at low shard counts.
+  - Grimoire: Imp Lord / Fel Ravager (1min, if talented): Choice node. Imp Lord provides Singe Magic (dispel); Fel Ravager provides an extra interrupt/Spell Lock. Both deal significant damage.
+  - Power Siphon (30s, if talented): Consumes 2 Wild Imps to grant 2 Demonic Core stacks and buff Demonbolt by 30%. Use when at 2 or fewer Demonic Core stacks with 2+ imps active.
+  - Infernal Bolt (Diabolist only): Replaces Shadow Bolt as the preferred filler when available. Higher damage and better shard generation at low shard counts.
   - Dark Pact (1min): Major defensive shield based on health. Use proactively for predictable damage, not as an emergency button.
   - Unending Resolve (3min): Major defensive reduction and interrupt immunity.
 
@@ -121,7 +121,7 @@ commonMistakes:
   - 'Not having 2 Soul Shards ready when Call Dreadstalkers comes off cooldown'
   - 'Failing to use Demonbolt to spread Doom debuffs in multi-target scenarios'
   - 'Holding defensive cooldowns like Dark Pact for emergencies instead of using them proactively'
-  - 'Using Shadow Bolt when Infernal Bolt is available — Infernal Bolt is the preferred filler at low shards'
+  - 'Using Shadow Bolt when Infernal Bolt is available (Diabolist only) — Infernal Bolt is the preferred filler at low shards'
   - 'Imploding at the end of a dying M+ pack instead of carrying imps and resources to the next pull'
   - 'Casting Summon Demonic Tyrant on a pack that will die in under 20 seconds — hold for the next pull'
 

@@ -20,7 +20,7 @@ maintenanceBuffs:
     spellName: Wither
     targetUptimePct: 95
     importance: critical
-    coachingTip: 'Hellcaller only: Replaces Immolate. Maintain on as many targets as possible. Use Cataclysm and Channel Demonfire to help manage uptime on multiple targets.'
+    coachingTip: 'Hellcaller only: Replaces Immolate. Maintain on as many targets as possible. Use Cataclysm (if talented) and Conflagrate (via Roaring Blaze) to help manage uptime on multiple targets.'
 
 playstyles:
   - id: diabolist
@@ -47,7 +47,7 @@ removedMechanics: |
   - Shadowburn (Reworked: Now only usable on targets below 20% health unless Fiendish Cruelty procs)
   - Fiendish Cruelty (Reworked: Now a crit proc that allows a free Shadowburn on any target)
   - Roaring Blaze (Reworked: Now spreads Immolate to 3 nearby targets instead of a damage debuff)
-  - Dimensional Rift (Reworked: Now a choice node with Soul Fire)
+  - Dimensional Rift (Reworked: Now a passive talent — 10% proc from Chaos Bolt/Shadowburn. No longer actively castable.)
   - Touch of Rancora (Reworked: Toned down to a minor damage buff)
 
 rotation:
@@ -58,12 +58,11 @@ rotation:
     4. Cast Soul Fire when available if below 4 shards.
     5. Cast Chaos Bolt if you are about to cap Soul Shards (at 4+ shards).
     6. Cast Cataclysm on cooldown (if talented for Immolate/Wither refresh).
-    7. Cast Infernal Bolt if below 4 Shards.
-    8. Cast Channel Demonfire whenever available.
+    7. Cast Infernal Bolt if below 4 Shards (Diabolist only).
+    8. Cast Channel Demonfire whenever available (if talented).
     9. Cast Conflagrate if you have 2 charges to avoid capping and to generate Backdraft.
-    10. Cast Dimensional Rift at 3 charges to avoid overcapping.
-    11. Cast Conflagrate to generate Soul Shards.
-    12. Cast Incinerate to generate Soul Shards.
+    10. Cast Conflagrate to generate Soul Shards.
+    11. Cast Incinerate to generate Soul Shards.
   aoe: |
     1. Maintain Immolate on the main target.
     2. Maintain Wither on as many targets as possible (Hellcaller).
@@ -71,27 +70,25 @@ rotation:
     4. Cast Malevolence (Hellcaller) with as many targets affected by Wither as possible.
     5. Apply Immolate on any secondary target that will last a minimum of 10 seconds.
     6. Use Conflagrate on the main target to spread Immolate/Wither to secondary targets (via Roaring Blaze).
-    7. Cast Cataclysm on cooldown (delay slightly if more targets are about to spawn).
+    7. Cast Cataclysm on cooldown (if talented; delay slightly if more targets are about to spawn).
     8. Cast Shadowburn when available during Malevolence.
     9. Cast Rain of Fire if there are 5+ targets with Havoc up, or 3+ targets if Havoc is on cooldown.
     10. Cast Rain of Fire if there are 8+ targets outside of the Havoc window.
     11. Cast Shadowburn whenever available (Execute/Proc).
     12. Cast Soul Fire when available if below 4 shards.
     13. Cast Chaos Bolt if you have 5 Soul Shards (to avoid capping).
-    14. Cast Infernal Bolt if below 4 Shards.
+    14. Cast Infernal Bolt if below 4 Shards (Diabolist only).
     15. Apply Havoc if a secondary target is present.
-    16. Cast Channel Demonfire when available.
-    17. Cast Dimensional Rift at 3 charges to avoid overcapping.
-    18. Cast Conflagrate to generate Soul Shards and Backdraft stacks.
-    19. Cast Incinerate to generate Soul Shards.
+    16. Cast Channel Demonfire when available (if talented).
+    17. Cast Conflagrate to generate Soul Shards and Backdraft stacks.
+    18. Cast Incinerate to generate Soul Shards.
   opener: |
     1. Pre-cast Soul Fire
     2. Pre-cast Incinerate
     3. Pre-cast Immolate
-    4. Pre-cast Cataclysm
+    4. Pre-cast Cataclysm (if talented)
     5. Cast Wither (if Hellcaller)
-    6. Cast Dimensional Rift
-    7. Cast Conflagrate
+    6. Cast Conflagrate
     8. Cast Summon Infernal
     9. Use Trinkets and Racials
     10. Cast Malevolence (if Hellcaller)
@@ -102,7 +99,7 @@ cooldowns: |
   - Summon Infernal (3min): Main offensive cooldown. Generates shards and empowers spenders via Crashing Chaos. Use on cooldown.
   - Malevolence (1min): Hellcaller specific. Bolsters burst windows and interacts with Wither stacks.
   - Havoc (30s): Duplicates single-target spells onto a second target at 60% damage. Essential for shard generation and cleave.
-  - Cataclysm (30s): Used primarily to apply Immolate/Wither to all targets in an area.
+  - Cataclysm (30s, if talented): Used primarily to apply Immolate/Wither to all targets in an area.
   - Dark Pact (1min): Strong shield based on health. Use proactively before predictable damage.
   - Unending Resolve (3min): Major defensive reduction and interrupt immunity.
   - Soulstone: Combat resurrection. Can be used reactively or preemptively.
@@ -114,7 +111,7 @@ concepts: |
   - Mastery (Chaotic Energies): Increases damage dealt by a random amount, and reduces damage taken by a random amount.
   - Diabolist Rituals: A cycle of summoning Overlord, Mother of Chaos, and Pit Lord by spending shards.
   - Hellcaller Wither: Replaces Immolate with a Shadowflame DoT that stacks and interacts with Malevolence.
-  - Movement: Destruction is highly immobile. Use Conflagrate, Shadowburn, and Dimensional Rift to cover movement. Use Demonic Circle and Gateway to minimize travel time.
+  - Movement: Destruction is highly immobile. Use Conflagrate and Shadowburn to cover movement. Use Demonic Circle and Gateway to minimize travel time.
   - Pet Choice: Felhunter is standard for the interrupt (Spell Lock). Use Imp for defensive dispels or Sayaad for pure single-target damage if no swaps are needed.
 
 commonMistakes:
@@ -133,7 +130,7 @@ patchChanges: |
   12.0:
   - Major rework of Shadowburn (Execute only) and Fiendish Cruelty.
   - Ritual of Ruin and Decimation removed.
-  - Dimensional Rift moved to a choice node with Soul Fire.
+  - Dimensional Rift redesigned to passive (10% proc from Chaos Bolt/Shadowburn). No longer actively castable.
   - Roaring Blaze reworked to spread Immolate.
   - New utility: Blights (powerful timed versions of Curses).
   - Health Funnel removed.
