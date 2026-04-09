@@ -47,7 +47,7 @@ removedMechanics:
 rotation:
   singleTarget: |-
     Three-phase rotation: Bigburn (Surge + Touch active), Miniburn (Touch only), Filler (between CDs).
-    1. Cast Arcane Surge on cooldown (45s CD) when at low mana to begin burst phase.
+    1. Cast Arcane Surge on cooldown (90s CD) when at low mana to begin burst phase.
     2. Cast Touch of the Magi on cooldown (45s CD, ensure target lives 12 seconds).
     3. Cast Arcane Orb when you have Clearcasting (Orb Mastery consumes Clearcasting, fires 3 orbs total).
     4. Cast Arcane Barrage at 4 Arcane Charges ONLY when you have 20 stacks of Arcane Salvo.
@@ -70,12 +70,12 @@ rotation:
     5. Arcane Barrage then Touch of the Magi mid-air.
     6. Arcane Orb with Clearcasting procs to build Salvo stacks rapidly.
     7. Arcane Blast as filler to 20 Salvo stacks, then Barrage.
-    8. Repeat 45s cycle when Touch resets.
+    8. Repeat cycle: Bigburn every 90s (Surge + Touch), Miniburn every 45s (Touch only).
     Pooling Opener (Advanced): Pre-cast Arcane Blast or Arcane Pulse 2s before pull to build Salvo stacks to 20 before opening burst.
 
 cooldowns:
 - name: Arcane Surge
-  cooldown: 45s
+  cooldown: 90s
   description: 'Primary DPS cooldown. Spends all mana for damage scaling with mana spent. Grants 35% spell
     damage + 425% mana regen for 15s. Generates 8 Arcane Splinters (Spellslinger). Use on cooldown — holding
     it cascades into mana problems.'
@@ -132,4 +132,4 @@ patchChanges:
     stacks with Reverberate. Spellslinger dominates — 18-25% ahead of Sunfury in all content.'
   '12.0': 'Major rework. Nether Precision removed. Arcane Salvo introduced as primary stacking mechanic.
     Shifting Power removed, locking cooldown cadence. Arcane Pulse added as ranged AoE filler. Arcane Surge
-    CD reduced to 45s. Clearcasting proc system reworked (bad luck protection, no guaranteed proc).'
+    CD is 90s (unchanged). Clearcasting proc system reworked (bad luck protection, no guaranteed proc).'
