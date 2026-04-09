@@ -55,8 +55,8 @@ tankingGuide:
     - Icebound Fortitude (3min): 30% DR and stun immunity. Save for heavy physical damage or stun mechanics.
     - Anti-Magic Shell (1min): Absorbs magic damage and prevents magic debuff application. Use frequently
       against magic damage — short cooldown means aggressive usage.
-    - Anti-Magic Zone (2min): 15% magic DR for group + personal 15% magic DR. Coordinate with healer.
-    - Lichborne (2min, reduced 30s by Deathbringer): 15% Leech and Fear/Sleep/Charm immunity.
+    - Anti-Magic Zone (3min, base 4min reduced 60s by Assimilation): 15% magic DR for group + personal 15% magic DR. Coordinate with healer.
+    - Lichborne (1.5min, base 2min reduced 30s by Unholy Endurance): 15% Leech and Fear/Sleep/Charm immunity.
   resourceManagement: |-
     Dual resource: Runes generate Runic Power (10 per Rune spent). Keep at least 3 Runes recharging at
     all times. Spend RP on Death Strike for reactive healing and Coagulopathy maintenance. Never cap RP —
@@ -113,7 +113,7 @@ cooldowns:
   description: 'Primary Deathbringer burst. 12s DoT stacking up to 40 from Shadow/Frost damage. Explodes
     for massive damage based on stacks. Grants Exterminate charges on detonation.'
 - name: Dancing Rune Weapon
-  cooldown: 90s
+  cooldown: 120s base (90s with Insatiable Blade)
   description: '20% parry, copies attacks. Primary resource and throughput cooldown. Duration 12s in 12.0.1.'
 - name: Vampiric Blood
   cooldown: 1.5min (reduced by Red Thirst)
@@ -125,10 +125,10 @@ cooldowns:
   cooldown: 3min
   description: '30% DR and stun immunity.'
 - name: Lichborne
-  cooldown: 2min (reduced 30s by Deathbringer)
+  cooldown: 1.5min (base 2min, reduced 30s by Unholy Endurance)
   description: '15% Leech and immunity to Fear/Sleep/Charm.'
 - name: Anti-Magic Zone
-  cooldown: 2min
+  cooldown: 3min (base 4min, reduced 60s by Assimilation)
   description: 'Reduces magic damage for group by 15%. Also personal 15% magic DR.'
 
 concepts:

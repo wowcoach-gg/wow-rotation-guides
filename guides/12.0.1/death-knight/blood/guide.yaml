@@ -142,13 +142,13 @@ rotation:
     8. Continue Death Strike, Blood Boil, and Heart Strike until DRW fades.
 
 cooldowns: |
-  - Dancing Rune Weapon (1.5 min) - Primary resource and throughput CD. Increases Parry by 20% and copies attacks. Use on cooldown.
+  - Dancing Rune Weapon (120s base, 90s with Insatiable Blade) - Primary resource and throughput CD. Increases Parry by 20% and copies attacks. Use on cooldown.
   - Vampiric Blood (1.5 min) - Increases Max HP by 30% and all healing/absorbs by 30%. Use proactively for big hits.
   - Anti-Magic Shell (1 min) - Absorbs magic damage and prevents magic debuff application.
   - Icebound Fortitude (3 min) - 30% damage reduction and stun immunity. Use for major tankbusters.
-  - Lichborne (2 min) - 6% Leech and immunity to Fear/Charm/Sleep. NOT a damage reduction cooldown.
-  - Anti-Magic Zone (2 min) - 15% magic damage reduction for the group.
-  - Gorefiend's Grasp (2 min) - Mass grip utility, silences targets for 3s.
+  - Lichborne (2 min, 1.5min with Unholy Endurance) - 6% Leech and immunity to Fear/Charm/Sleep. NOT a damage reduction cooldown.
+  - Anti-Magic Zone (4 min base, 3 min with Assimilation) - 15% magic damage reduction for the group.
+  - Gorefiend's Grasp (1.5 min) - Mass grip utility, silences targets for 3s.
   - Raise Dead (2 min) - Summons a ghoul for 1 minute to provide extra DPS.
 
 concepts: |

@@ -62,10 +62,10 @@ tankingGuide:
     - Icebound Fortitude (3min): 30% DR and stun immunity. San'layn (Bloody Fortitude) increases DR based
       on missing health — more effective at low HP.
     - Anti-Magic Shell (1min): Absorbs magic damage and prevents magic debuff application. Use aggressively.
-    - Anti-Magic Zone (2min): 15% magic DR for group + personal 15% magic DR.
-    - Lichborne (2min): 15% Leech and Fear/Sleep/Charm immunity. San'layn (Vampiric Aura) also grants
-      2% Leech to nearby allies.
-    - Gorefiend's Grasp (2min): AoE grip + 3s silence. Target someone other than yourself to group enemies.
+    - Anti-Magic Zone (3min, base 4min reduced 60s by Assimilation): 15% magic DR for group + personal 15% magic DR.
+    - Lichborne (1.5min, base 2min reduced 30s by Unholy Endurance): 15% Leech and Fear/Sleep/Charm immunity.
+      San'layn (Vampiric Aura) also grants 2% Leech to nearby allies.
+    - Gorefiend's Grasp (1.5min): AoE grip + 3s silence. Target someone other than yourself to group enemies.
   resourceManagement: |-
     Dual resource: Runes generate Runic Power (10 per Rune spent). Keep at least 3 Runes recharging.
     Spend RP on Death Strike for reactive healing and Coagulopathy maintenance. Never cap RP.
@@ -119,7 +119,7 @@ rotation:
 
 cooldowns:
 - name: Dancing Rune Weapon
-  cooldown: 90s
+  cooldown: 120s base (90s with Insatiable Blade)
   description: 'Primary cooldown. 20% parry, replicates attacks. For San''layn, activates Gift of the San''layn
     (Heart Strike becomes Vampiric Strike, Essence stacks tripled). Duration reduced to 12s in 12.0.1.'
 - name: Vampiric Blood
@@ -132,14 +132,14 @@ cooldowns:
   cooldown: 3min
   description: '30% DR and stun immunity. San''layn (Bloody Fortitude) increases DR based on missing health.'
 - name: Lichborne
-  cooldown: 2min
+  cooldown: 1.5min (base 2min, reduced 30s by Unholy Endurance)
   description: '15% Leech and immunity to Fear/Sleep/Charm. San''layn (Vampiric Aura) grants 2% Leech to
     allies.'
 - name: Anti-Magic Zone
-  cooldown: 2min
+  cooldown: 3min (base 4min, reduced 60s by Assimilation)
   description: 'Reduces magic damage for group by 15%. Also 15% personal DR vs magic.'
 - name: "Gorefiend's Grasp"
-  cooldown: 2min
+  cooldown: 1.5min
   description: 'AoE grip and 3s silence. Target someone other than yourself to group enemies.'
 - name: Raise Dead
   cooldown: 2min
