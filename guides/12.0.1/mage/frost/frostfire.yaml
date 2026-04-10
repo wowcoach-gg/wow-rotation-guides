@@ -31,7 +31,8 @@ maintenanceBuffs:
   spellName: Ice Barrier
   targetUptimePct: 100
   importance: medium
-  coachingTip: 'Keep active for survivability. Frostfire gains Imbued Warding for enhanced protection.'
+  coachingTip: '30-second recharge, 2 charges with Glacial Bulwark. The spell description says "for 1 min"
+    but that is the BUFF DURATION, not the cooldown. Frostfire gains Imbued Warding for enhanced protection.'
 
 removedMechanics:
 - Icy Veins (removed in 12.0)

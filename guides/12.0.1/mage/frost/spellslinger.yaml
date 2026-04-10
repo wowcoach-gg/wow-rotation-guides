@@ -18,8 +18,9 @@ maintenanceBuffs:
   spellName: Ice Barrier
   targetUptimePct: 100
   importance: high
-  coachingTip: 'Keep active to mitigate damage. Glacial Bulwark provides dual charges. Spellslinger has
-    Reactive Barrier for additional protection.'
+  coachingTip: '30-second recharge, 2 charges with Glacial Bulwark. The spell description says "for 1 min"
+    but that is the BUFF DURATION, not the cooldown. With 2 charges on a 30s recharge there is zero excuse
+    for any downtime. Spellslinger has Reactive Barrier for additional protection.'
 - spellId: 0
   spellName: Fingers of Frost
   targetUptimePct: 0
