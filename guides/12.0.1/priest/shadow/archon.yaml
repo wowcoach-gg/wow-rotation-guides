@@ -59,9 +59,9 @@ rotation:
     7. Cast Void Volley (available during Voidform).
     8. Cast Tentacle Slam if about to cap charges or SW:Madness not active.
     9. Cast Mind Blast to prevent capping at 2 charges.
-    10. Cast Mind Flay: Insanity if Shadow Word: Madness is active.
+    10. Cast Mind Flay: Insanity when you have charges from Manifested Power (granted by Halo).
     11. Cast Shadow Word: Death if pet is active or target below 20%/35% HP.
-    12. Cast Mind Flay as filler (interrupt for higher priority actions).
+    12. Cast Mind Flay as filler when no Mind Flay: Insanity charges remain (interrupt for higher priority actions).
   aoe: |-
     AoE is similar to ST — most AoE damage comes from Psychic Link cleave on VT targets.
     1. Maintain VT and SW:P on up to 12 targets. Use Tentacle Slam (covers 6 stacked targets).
@@ -73,8 +73,8 @@ rotation:
     7. Cast Void Volley.
     8. Cast Tentacle Slam if about to cap charges or SW:Madness not active.
     9. Cast Mind Blast.
-    10. Cast Mind Flay: Insanity if SW:Madness is active.
-    11. Cast Mind Flay filler.
+    10. Cast Mind Flay: Insanity when you have charges from Manifested Power (granted by Halo).
+    11. Cast Mind Flay as filler when no Mind Flay: Insanity charges remain.
     Do not manually DoT targets that will die in <18 seconds.
   opener: |-
     1. Ensure Shadowform and Power Word: Fortitude are active.
@@ -100,8 +100,10 @@ cooldowns:
   cooldown: 2min
   description: 'Major haste buff. Use on ally if Twins of the Sun Priestess talented. Sync with Voidform.'
 - name: Halo
-  cooldown: See source
-  description: 'Empowering AoE spell. High priority in both ST and AoE. Interacts with Voidform.'
+  cooldown: 20sec
+  description: 'Archon-exclusive AoE spell. Creates a ring of Shadow energy that heals allies and damages enemies.
+    Triggers Manifested Power, granting multiple charges of Mind Flay: Insanity. High priority — sync with
+    Voidform for maximum burst. Each Halo grants approximately 4 MF:I charges.'
 - name: Void Volley
   cooldown: Available during Voidform
   description: 'High-priority ability only usable during Voidform. Cast immediately when available.'
@@ -128,8 +130,11 @@ concepts:
   Perfected Form grants +5% damage during Voidform. Note: Voidform REPLACES Shadowform, cancelling its
   damage increase — the 5% from Perfected Form offsets this.'
 - 'Void Volley: Only available during Voidform. High priority — cast immediately when available.'
-- 'Mind Flay: Insanity: Empowered version of Mind Flay. Only 1 GCD long (cannot be interrupted early).
-  Cast when SW:Madness is active.'
+- 'Mind Flay: Insanity: Empowered version of Mind Flay granted by Manifested Power (from Halo). Only 1 GCD
+  long (cannot be interrupted early). Replaces Mind Flay on the action bar when charges are available. Each
+  Halo grants approximately 4 charges. Regular Mind Flay casts are expected when no charges remain — this is
+  correct play, not a mistake. Do NOT flag regular Mind Flay usage as an error if the player has exhausted
+  their MF:I charges since the last Halo.'
 - 'Tentacle Slam: Covers 6 stacked targets with DoTs. Use both charges on large packs. Do not cap charges.'
 - 'Mastery: Shadow Weaving: Damage increases based on number of DoTs on target (VT, SW:P, SW:Madness).
   Maximum value requires all 3 DoTs active.'
@@ -151,6 +156,8 @@ commonMistakes:
 - Capping Mind Blast charges (2) and losing Insanity generation.
 - Not using Tentacle Slam for DoT application in AoE.
 - Finishing full Mind Flay channels when higher priority actions are available.
+- 'Confusing Mind Flay with Mind Flay: Insanity — MF:I is charge-based from Halo (Manifested Power), not
+  a permanent upgrade. Regular Mind Flay between Halos is expected and correct.'
 
 patchChanges:
   12.0.1: 'Perfected Form: +5% damage during Voidform. Spiritwell: Increased Shadowy Apparitions damage.
