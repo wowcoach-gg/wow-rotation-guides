@@ -14,7 +14,7 @@ maintenanceBuffs:
   spellName: Dawnlight
   targetUptimePct: 80
   importance: high
-  coachingTip: 'Applied via Divine Toll or Holy Prism. Essential for Herald of the Sun healing throughput and Sun''s Avatar beams during Avenging Wrath.'
+  coachingTip: 'Applied via Divine Toll or Holy Prism. Essential for Herald of the Sun healing throughput. Sun''s Avatar passively links you to Dawnlight targets with healing beams at all times.'
 - spellId: 0
   spellName: Beacon of Light / Faith
   targetUptimePct: 100
@@ -58,15 +58,15 @@ rotation:
     5. When no healing needed, spend Holy Power on Shield of the Righteous for damage and mana regen.
   opener: |-
     1. Ensure Beacon of Light, Beacon of Faith, and Devotion Aura are active.
-    2. Cast Avenging Wrath to trigger Sun's Avatar (beams connect to allies with Dawnlight).
+    2. Cast Avenging Wrath for burst healing (Sun's Avatar beams are always active on Dawnlight targets).
     3. Cast Divine Toll to apply Dawnlight and generate 5 Holy Power.
     4. Spend Holy Power on Light of Dawn or Eternal Flame.
     5. Continue with standard priority.
-    NOTE: Avenging Wrath BEFORE Divine Toll is critical so Sun's Avatar beams immediately connect to Dawnlight targets.
+    NOTE: Avenging Wrath BEFORE Divine Toll is critical so burst healing and Dawnlight beams are active during the burst window.
 cooldowns:
 - name: Avenging Wrath
   cooldown: 2min
-  description: Major cooldown. Increases damage, healing, and crit for 30 seconds. Triggers Sun's Avatar which creates healing beams to allies with Dawnlight. Always cast BEFORE Divine Toll so beams immediately activate on Dawnlight targets. Walk Into Light grants 2 Holy Power on activation.
+  description: Major cooldown. Increases damage, healing, and crit for 30 seconds. Sun's Avatar is a passive effect that ALWAYS links you to Dawnlight targets with healing beams (it is NOT triggered by Avenging Wrath). However, AW should still be cast BEFORE Divine Toll because Divine Toll applies Dawnlight to 5 targets, maximizing the number of active beams. Walk Into Light grants 2 Holy Power on activation.
 - name: Aura Mastery
   cooldown: 3min
   description: Empowers Devotion Aura to provide 12% damage reduction to all allies. Use for assigned raid mechanics or heavy party damage.
@@ -84,7 +84,7 @@ cooldowns:
   description: Short defensive cooldown for personal damage reduction.
 concepts:
 - 'Holy Power Management: Core loop is building Holy Power with Holy Shock and Flash of Light, then spending on Light of Dawn (raid) or Eternal Flame (M+). Never overcap at 5.'
-- 'Dawnlight and Sun''s Avatar: Herald of the Sun relies on applying Dawnlight via Divine Toll or Holy Prism. During Avenging Wrath, Sun''s Avatar connects you to Dawnlight targets with healing beams. This is why AW must be cast BEFORE Divine Toll in the opener.'
+- 'Dawnlight and Sun''s Avatar: Herald of the Sun relies on applying Dawnlight via Divine Toll or Holy Prism. Sun''s Avatar is a PASSIVE effect that ALWAYS connects you to active Dawnlight targets with healing beams — it does NOT require Avenging Wrath. AW should still be cast before Divine Toll because Divine Toll is the primary Dawnlight applicator, and you want beams active during your burst window.'
 - 'Eternal Flame: Replaces Word of Glory for Herald players. Provides a direct heal plus a HoT. In Mythic+ this is primary spender due to superior Beacon transfer value. In raid, Light of Dawn is better due to Breaking Dawn and Second Sunrise.'
 - 'Infusion of Light: Has a 10% proc chance from Holy Shock (not guaranteed). Use on Flash of Light for instant, high-value healing. Can use on Judgment in M+ when no healing is needed for extra Holy Power and damage.'
 - 'Beacon of the Savior: Apex talent that automatically targets the lowest health ally. Benefits from all Beacon talents (Commanding Light, Saved by the Light). Rank 3 grants absorb shield and damage reduction every 8 seconds.'
@@ -104,7 +104,7 @@ removedMechanics:
 - Crusader Strike (Base version removed; only available during Avenging Crusader)
 commonMistakes:
 - Overcapping Holy Power by casting a generator while at 5 Holy Power.
-- Casting Avenging Wrath AFTER Divine Toll instead of before, missing Sun's Avatar beams on Dawnlight targets.
+- Casting Avenging Wrath AFTER Divine Toll instead of before, missing burst healing synergy on Dawnlight targets.
 - Casting Judgment in raid, which is always a healing loss compared to Flash of Light after Empyrean Legacy nerfs.
 - Overusing Holy Light and depleting mana too early in a fight.
 - Targeting enemies with Divine Toll when the priority is group healing.

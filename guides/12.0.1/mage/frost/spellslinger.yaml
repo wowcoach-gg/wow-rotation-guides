@@ -84,8 +84,8 @@ cooldowns:
   cooldown: 10min shared
   description: '30% Haste for 40s. Coordinate with group.'
 - name: Ice Cold / Ice Block
-  cooldown: Major defensive
-  description: 'Glacial Bulwark provides dual charges for Ice Barrier and Ice Block/Ice Cold.'
+  cooldown: 3.5min (reduced by 30s with Permafrost Bauble)
+  description: 'Ice Cold replaces Ice Block: 70% damage reduction for 6 sec, allows movement and casting (no immunity). Does NOT heal unless the player has Cryo-Freeze talented (which adds 40% max HP heal over duration). Hypothermia prevents reuse for 30 sec. Glacial Bulwark provides dual charges for Ice Barrier and Ice Block/Ice Cold. Cold Snap (5min CD) resets Ice Cold cooldown.'
 
 concepts:
 - 'Freezing Stack Threshold: Spellslinger consumes at 6+ stacks (vs Frostfire at 10+). Lower threshold
