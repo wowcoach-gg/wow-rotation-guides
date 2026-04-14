@@ -51,8 +51,7 @@ tankingGuide:
     - Avenging Wrath / Sentinel (2min/1min via Righteous Protector talent): Both offensive and defensive. AW grants 20% damage/healing +
       20% crit. Sentinel provides stacking DR (15 stacks, 2% HP + 2% DR each). Spending 3 HP prevents
       stack loss.
-    - Divine Shield (5min): Total immunity. With Final Stand talent, provides AoE taunt during immunity.
-      Can cancel early with macro to just clear debuffs.
+    - Divine Shield (5min): Total immunity. WITHOUT Final Stand talent, DROPS ALL THREAT (boss attacks healers). Only safe as a tank CD with Final Stand talented.
     - Lay on Hands (10min): Emergency full heal for yourself or an ally. Last resort.
     - Blessing of Sacrifice (2min): External damage reduction for a party member.
   holyPowerManagement: |-
@@ -121,8 +120,7 @@ cooldowns:
   description: 'Avenging Wrath: Increases damage, healing, and critical strike chance by 20% and changes Judgment into Hammer of Wrath. Sentinel: replaces Avenging Wrath''s damage/healing effect but does NOT grant the crit bonus; instead provides stacking DR (15 stacks, 2% HP + 2% DR each, lose 1/sec after 5s, spending 3 HP prevents stack loss).'
 - name: Divine Shield
   cooldown: 5min
-  description: 'Total immunity. Use Final Stand talent for AoE taunt during immunity. Can cancel early
-    with macro to just remove debuffs.'
+  description: 'Total immunity for 8 sec. WARNING: Without the Final Stand talent, Divine Shield causes you to DROP ALL THREAT — the boss will immediately attack someone else. Only use as a tank defensive if Final Stand is talented (adds AoE taunt during immunity). Check talents before recommending. Can cancel early with /cancelaura macro to just remove debuffs.'
 - name: Lay on Hands
   cooldown: 10min
   description: 'Emergency full heal (your max HP) for yourself or ally.'

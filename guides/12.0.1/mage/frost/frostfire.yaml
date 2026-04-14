@@ -115,6 +115,10 @@ concepts:
   increased damage. Use immediately when procced.'
 - 'Fingers of Frost: 15% chance from Frostfire Bolt. Max 2 charges. Ice Lance deals Shatter damage without
   consuming actual Freezing stacks. Spend to avoid capping.'
+- 'COACHING RULE — Ice Lance Analysis: When evaluating Ice Lance usage, there are TWO valid reasons
+  to cast Ice Lance: (1) Fingers of Frost proc is active (does NOT consume Freezing stacks), or
+  (2) target has 10+ Freezing stacks for Frostfire (consumes stacks). An Ice Lance without either
+  condition is a wasted cast. Do NOT assume every Ice Lance consumes stacks — FoF casts consume zero.'
 - 'Ray of Frost Fragility: With Icy Veins removed, Ray of Frost is your primary cooldown window. No movement
   protection — use Shimmer to reposition without interrupting.'
 - 'Imbued Warding: Frostfire-specific defensive enhancement for Ice Barrier.'
