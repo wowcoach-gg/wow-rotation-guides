@@ -68,7 +68,37 @@ cooldowns:
   description: Powerful finisher. Always use inside Shadow Dance windows.
 - name: Vanish
   cooldown: 2min
-  description: Use when Shadow Dance is unavailable to enable a Shadowstrike.
+  description: |
+    Offensive cooldown. Use when Shadow Dance is on cooldown. Vanish activates Stealth, which
+    triggers any Stealth-conditioned talents the player has taken. The specific numeric effects
+    come from the individual talent tooltips — do NOT quote numbers from memory. Authoritative
+    tooltip excerpts for the common Stealth-triggered talents (cite these verbatim, not
+    paraphrased, if the player has them in qe_talent_summary):
+
+      - Master of Shadows: "Gain 5 Energy over 3 sec when you enter Stealth or activate Shadow Dance."
+      - Find Weakness: "Your Stealth abilities allow you to see the flaws in enemies' defenses,
+        causing your attacks to ignore 30% armor for 10 sec."
+      - Silent Storm: "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm
+        to have 100% increased chance to critically strike."
+      - Fade to Nothing: "Movement speed increased by 20% and damage taken reduced by 10% for 8
+        sec after gaining Stealth, Vanish, or Shadow Dance."
+      - Shadowrunner: "While Stealth or Shadow Dance is active, you move 20% faster."
+      - Shadow Focus: "Abilities deal [%] more damage while Stealth or Shadow Dance is active."
+
+    Vanish does NOT trigger talents whose Description specifies Shadow Dance only. Authoritative
+    tooltip excerpts for the common Shadow-Dance-only talents (do NOT attribute these to Vanish):
+
+      - Dark Shadow: "Shadow Dance increases all ability damage by 5%, and Shadowstrike and
+        Shuriken Storm damage by an additional 5%."
+      - Danse Macabre: "While Shadow Dance is active, each different attack that generates or
+        spends combo points lashes out at the target..."
+      - Shadowcraft: "While Shadow Dance is active, your Shadow Techniques triggers 40% more
+        frequently..."
+      - Warning Signs: "Shadow Dance increases attack speed by 25%."
+
+    Rule: any numeric claim about a talent's effect (% damage, N Energy, seconds, etc.) must
+    match the tooltip text above or the talent's Description field from qe_talent_summary. If
+    a number differs from the tooltip, the tooltip wins — adjust or drop the claim.
 - name: Cloak of Shadows
   cooldown: 2min
   description: 'Removes non-physical debuffs and provides spell immunity.'
