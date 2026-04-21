@@ -128,12 +128,24 @@ concepts:
 - 'Defensives as Offensives: Fiery Brand and Metamorphosis are significant damage multipliers. Align them with burst windows
   (Voidfall/Dark Matter) when survival is not at immediate risk.'
 - 'Mobility: Use Infernal Strike (off-GCD) for movement and extra damage. Keep 1 charge for mechanics.'
+- 'Charred Flesh: Casting Immolation Aura extends the duration of your active Fiery Brand. Paired with 2-charge Fiery Brand
+  and Fiery Demise, this keeps your Fire-damage multiplier running for most of the fight.'
+- 'Infernal Armor: Passive class-tree talent. Immolation Aura increases your Armor while active, smoothing physical damage
+  intake during rotational windows.'
+- 'Damage profile in logs: Annihilator''s biggest damage numbers come from TRIGGERED effects, not casts. In a damage
+  breakdown you should expect to see "Voidfall Meteor", "Meteor Shower", "World Killer", "Catastrophe", and "Dark Matter"
+  at or near the top of the list when the rotation is working. These are procs fired by the Voidfall mechanic + Metamorphosis
+  (via Mass Acceleration) — they do NOT appear in cast counts. When grading a player''s rotation, look for meteor/World
+  Killer damage as the primary health-check; a breakdown that only lists Soul Cleave / Spirit Bomb / Fracture as damage
+  sources is missing the spec''s main output and may understate the player''s actual performance.'
 commonMistakes:
 - Overcapping Voidfall stacks by using Fracture or Metamorphosis while at 3 stacks
 - Overcapping Soul Fragments (holding more than 6) instead of spending them on Soul Cleave or Spirit Bomb
 - 'Holding Metamorphosis too long; Annihilator relies on frequent usage to benefit from World Killer CDR'
 - Not aligning Fiery Brand with Metamorphosis and Voidfall meteors for maximum damage
 - Letting Demon Spikes drop during periods of heavy physical damage when other defensives are down
+- 'Low Voidfall Meteor / World Killer / Meteor Shower damage relative to Soul Cleave — indicates Voidfall stacks are being
+  wasted (Fracture at 3 stacks, Meta at 3 stacks, or finishers not consumed after reaching 3)'
 patchChanges:
   12.0.1: Annihilator focuses on Voidfall stacks and meteor procs. World Killer talent added to reduce Metamorphosis cooldown
     via meteors.
