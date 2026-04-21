@@ -134,10 +134,12 @@ concepts:
   intake during rotational windows.'
 - 'Damage profile in logs: Annihilator''s biggest damage numbers come from TRIGGERED effects, not casts. In a damage
   breakdown you should expect to see "Voidfall Meteor", "Meteor Shower", "World Killer", "Catastrophe", and "Dark Matter"
-  at or near the top of the list when the rotation is working. These are procs fired by the Voidfall mechanic + Metamorphosis
-  (via Mass Acceleration) — they do NOT appear in cast counts. When grading a player''s rotation, look for meteor/World
-  Killer damage as the primary health-check; a breakdown that only lists Soul Cleave / Spirit Bomb / Fracture as damage
-  sources is missing the spec''s main output and may understate the player''s actual performance.'
+  at or near the top of the list when the rotation is working. These are triggered effects — the meteor drop is deterministic
+  when you spend Soul Cleave or Spirit Bomb at 3 Voidfall stacks; Meteor Shower / Dark Matter fire from Metamorphosis via
+  Mass Acceleration. Only the Voidfall STACK generation itself is a proc (35% chance per Fracture cast). These damage
+  events do NOT appear in cast counts. When grading a player''s rotation, look for meteor/World Killer damage as the
+  primary health-check; a breakdown that only lists Soul Cleave / Spirit Bomb / Fracture as damage sources is missing the
+  spec''s main output and may understate the player''s actual performance.'
 commonMistakes:
 - Overcapping Voidfall stacks by using Fracture or Metamorphosis while at 3 stacks
 - Overcapping Soul Fragments (holding more than 6) instead of spending them on Soul Cleave or Spirit Bomb
