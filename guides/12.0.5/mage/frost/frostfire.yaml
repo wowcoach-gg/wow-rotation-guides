@@ -69,83 +69,73 @@ rotation:
     10. Cast Ray of Frost.
     11. Cast Frostfire Bolt.
   opener: |-
-    1. Pre-cast Blizzard at 2 seconds on the countdown (same for ST and AoE — Frostfire's pre-pull filler).
+    1. Pre-cast Glacial Spike (or Blizzard for AoE) at 2 seconds on countdown.
     2. Cast Flurry to start the cooldown.
-    3. Activate Time Warp if popping on pull (otherwise group-scheduled).
+    3. Activate Time Warp.
     4. Cast Glacial Spike.
     5. Cast Flurry again.
     6. Cast Ray of Frost.
     7. Cast Frozen Orb.
-    8. (AoE) Follow with Comet Storm, then normal priority.
-    9. (ST) Resume normal priority.
+    8. (AoE only) Cast Comet Storm.
 
 cooldowns:
 - name: Ray of Frost
   cooldown: 1min
-  description: 'Main offensive cooldown. Channels for 4s dealing heavy damage and generating Freezing stacks.
-    Very fragile — movement or knockbacks waste the cast. Hand of Frost (Apex) adds a second charge and extra
+  description: 'Main offensive cooldown. Channels for 4s dealing heavy damage and stacking 8 Freezing. Very
+    fragile — movement or knockbacks waste the cast. Hand of Frost talent grants 2 charges and 25% increased
     damage. Use Shimmer to reposition without interrupting.'
 - name: Comet Storm (Frostfire only)
-  cooldown: '~30s'
-  description: '7 icy comets, each shattering 1 Freezing stack. Frostfire-exclusive — do not expect any
-    Comet Storm casts on a Spellslinger player. Isothermic Core talent adds a Meteor (Fire damage) to the cast.'
+  cooldown: Linked to Ray of Frost
+  description: '7 icy comets, each shattering 1 Freezing stack. Isothermic Core talent also calls a Meteor
+    dealing Fire damage alongside it.'
 - name: Frozen Orb
   cooldown: 1min
-  description: 'AoE damage over its duration with slow. Triggers Freezing Rain (instant Blizzard during the
-    buff). Core resource for both ST and AoE.'
+  description: 'AoE damage over 15s, slows enemies 50%. Triggers Freezing Rain (instant Blizzard, +20%
+    Blizzard damage). Blizzard no longer reduces its cooldown.'
 - name: Time Warp
   cooldown: 10min shared
-  description: '30% Haste buff. Group-scheduled cooldown.'
+  description: '30% Haste for 40s. Coordinate with group.'
 - name: Ice Cold / Ice Block
-  cooldown: 4min base (Cold Snap resets it)
-  description: 'Ice Cold replaces Ice Block: heavy damage reduction for a short window, allows movement
-    and casting (not a full immunity). Glacial Bulwark provides a second charge of Ice Barrier/Ice Cold
-    and is the go-to choice vs the Cold Snap node for most content. Frostfire gains Imbued Warding for
-    enhanced barrier protection.'
+  cooldown: 3.5min (reduced by 30s with Permafrost Bauble)
+  description: 'Ice Cold replaces Ice Block: 70% damage reduction for 6 sec, allows movement and casting (no immunity). Does NOT heal unless the player has Cryo-Freeze talented (which adds 40% max HP heal over duration). Hypothermia prevents reuse for 30 sec. Glacial Bulwark provides dual charges for Ice Barrier and Ice Block/Ice Cold. Cold Snap (5min CD) resets Ice Cold cooldown.'
 
 concepts:
-- 'Freezing Stack Threshold: Frostfire consumes Freezing at 10+ stacks via Ice Lance (vs 6+ on Spellslinger).
-  Higher threshold because Comet Storm, Glacial Spike (with Glacial Shatter), and Frostfire Empowerment all
-  consume stacks on their own.'
-- 'Frostfire Bolt: Replaces Frostbolt as primary filler cast on Frostfire. Any "Frostbolt" reference in the
-  rotation applies to Frostfire Bolt for this hero tree.'
-- 'Shatter Rework: Freezing is a stacking debuff on the enemy consumed by Ice Lance. Mastery: Freeze and
-  Shatter amplifies freeze/shatter damage. No longer a crit bonus model.'
-- 'Thermal Void: Consuming Brain Freeze with Flurry extends into a bonus Ice Lance window — only cast Flurry
-  with Brain Freeze when Thermal Void is NOT already active, to avoid overwriting the buff.'
-- 'Comet Storm: Frostfire-exclusive — 7 comets each shattering 1 Freezing stack on impact. Isothermic Core
-  talent adds a Meteor (Fire damage) alongside each cast. Do not expect Comet Storm casts on Spellslinger.'
-- 'Glacial Shatter: Frostfire talent that makes Glacial Spike shatter 5 Freezing stacks instead of applying them.'
-- 'Frostfire Empowerment: Proc from Frostfire spells granting an instant Frostfire Bolt that explodes for AoE.
-  Spend procs promptly — prioritize them in AoE especially.'
-- 'Isothermic Core: Frostfire talent that links Meteor to Comet Storm for extra Fire damage.'
-- 'Imbued Warding: Frostfire defensive talent enhancing Ice Barrier.'
-- 'Duality: Frostfire thematic passive — Frost spells interact with Fire spells on this hero tree.'
-- 'Brain Freeze: Frostfire Bolt chance to reset Flurry cooldown and buff the next Flurry. Consume promptly.'
-- 'Fingers of Frost: Ice Lance deals Shatter damage without consuming Freezing stacks. Max 2 charges —
-  spend the second charge before it wastes.'
-- 'COACHING RULE — Ice Lance Analysis: Two valid reasons to cast Ice Lance on Frostfire:
-  (1) Fingers of Frost proc active (does NOT consume Freezing stacks), or
-  (2) target has 10+ Freezing stacks (consumes stacks).
-  An Ice Lance without either condition is a wasted cast. When calculating waste, subtract FoF-buffed and
-  10+-stack casts from the total — do NOT assume every Ice Lance consumes stacks; FoF casts consume zero.'
-- 'Ray of Frost Fragility: Primary channeled cooldown. Any movement or knockback wastes the cast — use
-  Shimmer to reposition without interrupting. Consume existing Freezing stacks before channeling.'
-- 'Glacial Bulwark vs Cold Snap: Choice node. Glacial Bulwark (second charge of Ice Barrier + Ice Cold) is
-  the default for most content. Cold Snap (resets defensives) has niche use in heavy damage windows.'
-- 'Mage Defensives: Ice Block / Ice Cold, Alter Time (health snapshot reset), and Ice Barrier are the actual
-  defensive tools. Mirror Image and Greater Invisibility no longer provide damage reduction in 12.0 — they
-  are threat drops only.'
+- 'Freezing Stack Threshold: Frostfire consumes at 10+ stacks (vs Spellslinger at 6+). Higher threshold
+  because Comet Storm and Frostfire Empowerment provide additional stack consumption.'
+- 'Frostfire Bolt: Replaces Frostbolt as primary filler. Faster cast, interacts with all Frostfire talents.
+  Any Frostbolt reference also applies to Frostfire Bolt.'
+- 'Shatter Rework: Shatter is now a stacking Freezing debuff on the enemy consumed by Ice Lance for bonus
+  damage. No longer a crit bonus.'
+- 'Thermal Void: Consuming Brain Freeze with Flurry gives 100% chance for next Ice Lance to shatter 4
+  additional stacks. Effectively doubles Ice Lance damage.'
+- 'Comet Storm: Frostfire-exclusive. 7 comets each shattering 1 Freezing stack. Isothermic Core adds a Meteor
+  dealing Fire damage.'
+- 'Glacial Shatter: Frostfire talent making Glacial Spike shatter 5 stacks instead of applying them.'
+- 'Brain Freeze: Frostfire Bolt has 25% chance to reset Flurry cooldown and make next Flurry deal 50%
+  increased damage. Use immediately when procced.'
+- 'Fingers of Frost: 15% chance from Frostfire Bolt. Max 2 charges. Ice Lance deals Shatter damage without
+  consuming actual Freezing stacks. Spend to avoid capping.'
+- 'COACHING RULE — Ice Lance Analysis: When evaluating Ice Lance usage, there are TWO valid reasons
+  to cast Ice Lance: (1) Fingers of Frost proc is active (does NOT consume Freezing stacks), or
+  (2) target has 10+ Freezing stacks for Frostfire (consumes stacks). An Ice Lance without either
+  condition is a wasted cast. Do NOT assume every Ice Lance consumes stacks — FoF casts consume zero.'
+- 'Ray of Frost Fragility: With Icy Veins removed, Ray of Frost is your primary cooldown window. No movement
+  protection — use Shimmer to reposition without interrupting.'
+- 'Imbued Warding: Frostfire-specific defensive enhancement for Ice Barrier.'
+- 'Ray of Frost Fragility: Main cooldown is a channel. Any movement or knockback wastes it. Position carefully
+  before casting.'
+- 'Brain Freeze: Procs that reset the cooldown of Flurry, a primary Freezing stack generator. Consume promptly.'
+- 'Fingers of Frost: Procs that allow Ice Lance to deal maximum shatter damage without consuming Freezing stacks.'
+
+- 'Mage Defensives: Ice Block (full immunity), Alter Time (health snapshot reset), and Ice Barrier/Blazing Barrier are the actual defensive tools. Mirror Image and Greater Invisibility are threat drops only — they do NOT reduce damage taken.'
 commonMistakes:
-- Casting Ice Lance at too few Freezing stacks without a Fingers of Frost proc (should be 10+ for Frostfire).
+- Casting Ice Lance at too few Freezing stacks (should be 10+ for Frostfire).
 - Overcapping Freezing stacks beyond the 20-stack limit.
-- Allowing Ray of Frost to be interrupted by movement or mechanics — use Shimmer to reposition.
-- Casting Ray of Frost or Glacial Spike before consuming existing Freezing stacks.
+- Allowing Ray of Frost to be interrupted by movement or mechanics.
+- Casting Ray of Frost before consuming existing Freezing stacks.
 - Hard-casting Blizzard in AoE when Freezing Rain is not active.
-- Holding Ray of Frost's second charge (when Hand of Frost is talented) too long instead of using it in the priority.
-- Casting Flurry with Brain Freeze while Thermal Void is already active (overwrites the buff).
+- Holding Ray of Frost charges too long instead of using second charge from Hand of Frost.
 - Capping Fingers of Frost at 2 charges instead of spending on Ice Lance.
-- Letting Frostfire Empowerment procs expire without casting Frostfire Bolt.
 
 patchChanges:
   12.0.1: 'Lonely Winter redesigned: flat 3% spell damage (was 25% bonus). Shatter changed to stacking
