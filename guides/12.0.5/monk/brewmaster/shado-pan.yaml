@@ -3,7 +3,7 @@ className: Monk
 specName: Brewmaster
 role: Tank
 heroTalent: 'Shado-Pan'
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Energy

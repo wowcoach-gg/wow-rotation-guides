@@ -2,7 +2,7 @@ specId: 263
 className: Shaman
 specName: Enhancement
 role: DPS
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 heroTalent: Stormbringer
 resourceManagement:

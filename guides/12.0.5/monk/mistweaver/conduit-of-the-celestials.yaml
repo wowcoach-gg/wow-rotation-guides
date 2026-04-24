@@ -3,7 +3,7 @@ className: Monk
 specName: Mistweaver
 role: Healer
 heroTalent: Conduit of the Celestials
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Mana

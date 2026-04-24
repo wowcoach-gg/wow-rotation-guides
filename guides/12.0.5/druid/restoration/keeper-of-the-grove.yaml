@@ -3,7 +3,7 @@ className: Druid
 specName: Restoration
 role: Healer
 heroTalent: Keeper of the Grove
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Mana

@@ -3,7 +3,7 @@ className: Warlock
 specName: Destruction
 role: DPS
 heroTalent: Diabolist
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Soul Shards

@@ -3,7 +3,7 @@ className: Demon Hunter
 specName: Havoc
 role: DPS
 heroTalent: Aldrachi Reaver
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Fury

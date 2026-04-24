@@ -2,7 +2,7 @@ specId: 268
 className: Monk
 specName: Brewmaster
 role: Tank
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 4
 heroTalent: Master of Harmony
 resourceManagement:

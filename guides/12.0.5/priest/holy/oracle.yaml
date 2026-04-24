@@ -3,7 +3,7 @@ className: Priest
 specName: Holy
 role: Healer
 heroTalent: Oracle
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Mana

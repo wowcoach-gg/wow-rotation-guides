@@ -3,7 +3,7 @@ className: Druid
 specName: Balance
 role: DPS
 heroTalent: Elune's Chosen
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Astral Power

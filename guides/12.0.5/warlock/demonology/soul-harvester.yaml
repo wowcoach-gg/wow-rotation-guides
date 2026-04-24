@@ -3,7 +3,7 @@ className: Warlock
 specName: Demonology
 role: DPS
 heroTalent: Soul Harvester
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 4
 resourceManagement:
   primaryResource: Soul Shards

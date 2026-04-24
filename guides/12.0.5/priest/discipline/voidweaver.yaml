@@ -3,7 +3,7 @@ className: Priest
 specName: Discipline
 role: Healer
 heroTalent: Voidweaver
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 resourceManagement:
   primaryResource: Mana

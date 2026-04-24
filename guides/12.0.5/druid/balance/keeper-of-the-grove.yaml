@@ -2,7 +2,7 @@ specId: 102
 className: Druid
 specName: Balance
 role: DPS
-patch: 12.0.1
+patch: "12.0.5"
 guideVersion: 3
 heroTalent: Keeper of the Grove
 resourceManagement:
