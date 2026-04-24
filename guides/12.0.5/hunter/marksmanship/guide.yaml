@@ -42,12 +42,10 @@ playstyles:
 # ── Text fields (AI reads raw) ───────────────────────────────────────────────
 
 removedMechanics: |
-  - Explosive Shot (Removed in 12.0)
   - Streamline (Removed in 12.0 - Aimed Shot now has a fixed 2.5s base cast time)
   - Improved Streamline (Removed in 12.0)
   - Razor Fragments (Removed in 12.0)
   - Moving Target (Removed in 12.0)
-  - Precision Detonation (Removed in 12.0)
   - Tactical Reload (Removed in 12.0)
   - Implosive Trap (Removed in 12.0)
   - High Explosive Trap (Removed in 12.0)
@@ -57,6 +55,10 @@ removedMechanics: |
   - Binding Shackles (Removed in 12.0)
   - Ghillie Suit (Removed in 12.0)
   - Deathblow procs from Auto-Shots (Removed for Dark Ranger in 12.0)
+  - Bullet Hell (Removed in 12.0.5)
+  - In the Rhythm (Removed in 12.0.5)
+  - Lethality (Removed in 12.0.5)
+  - Target Acquisition (Removed in 12.0.5)
 
 rotation:
   singleTarget: |
@@ -202,13 +204,26 @@ commonMistakes:
   - 'Forgetting to maintain Hunter’s Mark on the primary target'
 
 patchChanges: |
+  12.0.5:
+  - Explosive Shot re-added (fires at target, detonates after 3s for Fire damage to enemies within 8 yards; reduced damage beyond 5 targets).
+  - Shrapnel Shot re-added (casting Explosive Shot has 100% chance to grant Lock and Load).
+  - Precision Detonation re-added (Aimed Shot on an Explosive Shot target instantly detonates it for +20% damage).
+  - Precise Shots reworked (no longer reduces GCD; no longer provides auto-shot bonuses; damage bonus 50%, was 100%; now also affects Kill Shot and Black Arrow at 100% effectiveness).
+  - Windrunner Quiver reworked (consuming Precise Shots has 30% chance to grant Precise Shots; +15% damage bonus).
+  - Unmatched Precision nerfed to 10%/20% (was 20%/40%).
+  - Small Game Hunter reworked (now +15% Explosive Shot, +25% Volley).
+  - Eagle's Accuracy reworked (now +5%/+10% Aimed Shot, +10%/+20% Rapid Fire).
+  - Steady Shot damage +100%, Arcane Shot +33%, Multi-Shot +33%.
+  - Removed: Bullet Hell, In the Rhythm, Lethality, Target Acquisition.
+  - Sentinel: Can't Miss Won't Miss Precise Shots damage nerfed from 40% to 10%.
+  - Aspect of the Hydra effectiveness reduced to 35% (was 65%, April 17 hotfix).
   12.0.1:
   - Sentinel: Sentinel's Mark strengthened; Don't Look Back provides 10% absorb shield; Max Focus increased to 125.
   - Dark Ranger: Rapid Fire now guarantees a Deathblow proc; Trueshot button becomes Wailing Arrow.
   - General: Aimed Shot damage buffed to compensate for Streamline removal.
   12.0:
   - Streamline and Improved Streamline removed (Aimed Shot cast time increased to 2.5s).
-  - Explosive Shot and all related talents removed.
+  - Explosive Shot and all related talents removed (note: re-added in 12.0.5).
   - Exhilaration cooldown set to 1 minute flat.
   - Aspect of the Turtle cooldown reduced to 2 minutes; damage reduction increased to 50%.
   - Hunter's Mark now provides a 3% damage boost.
