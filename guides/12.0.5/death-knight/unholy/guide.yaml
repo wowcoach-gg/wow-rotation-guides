@@ -148,6 +148,21 @@ commonMistakes:
   - 'Running low on Lesser Ghoul stacks and having nothing for Scourge Strike to consume (aim for 4-6 stacks)'
 
 patchChanges: |
+  12.0.5:
+  - Cycle of Death: NEW. Putrefy reduces Death and Decay cooldown by 1s; Death and Decay reduces Putrefy cooldown by 0.3s per enemy hit (up to 3s).
+  - Raise Abomination reworked — Disease Cloud no longer causes increased damage vulnerability; now deals Plague damage periodically to nearby enemies.
+  - Putrid Echoes buffed — Putrefy now consumes up to 2 available charges on cast.
+  - Scourge Strike — now applies Virulent Plague in addition to spreading it.
+  - Pestilence renamed to Blightfall. Blightfall (the new name) now overrides Dark Transformation instead of Outbreak.
+  - Necrotic Coil — Shadowstrike damage now prefers primary target.
+  - Lesser Ghoul damage reduced by 17%.
+  - Rider of the Apocalypse - Unholy Armaments: Ghoul and skeletal archer +10%, Lesser Ghouls +20% damage.
+  - Rider of the Apocalypse - A Feast of Souls reworked: with 2+ Horsemen aiding, Death Coil +20% and Epidemic +20% damage.
+  - San'layn - Frenzied Bloodthirst reworked: Essence of the Blood Queen +3% Death Coil/Death Strike, +3% Epidemic per stack.
+  - San'layn - Thrill of Blood: Dread Plague +5%, Virulent Plague +5%.
+  - San'layn - Desecrate: Death and Decay deals damage 100% faster.
+  - REMOVED: (original) Blightfall, March of Madness, Scythe of Decay.
+  - NOTE: Because "Pestilence" was renamed to "Blightfall" in 12.0.5, combat-log abilities tagged Pestilence in older guides refer to the spell now called Blightfall. The rotation logic above is unchanged but the spell name differs in 12.0.5 logs.
   12.0.1:
   - General tuning and bug fixes for Midnight launch.
   - Opener updated to include an early Death Coil.
