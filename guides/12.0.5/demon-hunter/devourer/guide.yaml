@@ -165,7 +165,7 @@ cooldowns: |
   - Reap (8s base CD) - Instant, deals Cosmic damage, consumes Soul Fragments. Transforms into Eradicate after full Void Ray. Transforms into Cull during Void Metamorphosis.
   - Pierce the Veil (30s, Void-Scarred only) - Melee ability, triggers Devourer's Bite damage amp during Void Metamorphosis.
   - Voidblade (30s) - Leap to target, generates Fury, triggers Devourer's Bite damage amp.
-  - Soul Immolation (30s) - Generates 30 Fury and shatters 3 Souls over 5 seconds.
+  - Soul Immolation (30s) - Generates 30 Fury and shatters 3 Souls over 5 seconds. As of 12.0.5, also heals the player for 24% max HP over the duration and no longer self-damages.
   - Blur (1min, 2 charges) - 25% damage reduction for 10s.
   - Darkness (5min) - Group defensive; 15% (30% in dungeons) chance to avoid damage.
   - Void Nova (45s) - Ranged AoE stun (30-yard range, 3s).
@@ -197,5 +197,18 @@ commonMistakes:
 - 'Moving during Void Ray or Collapsing Star channels'
 
 patchChanges:
+  12.0.5: |
+    - Soul Immolation reworked: no longer deals self-damage; now heals for 24% max HP over duration.
+    - Spontaneous Immolation reworked: Soul Immolation now heals for an additional 6% max HP; cooldown resets upon killing experience/honor-yielding enemies.
+    - Sweet Suffering nerfed: Feast of Souls duration extension reduced to 1s/2s (was 2s/4s).
+    - Eradicate reworked: now deals separate damage to primary target and area damage targets.
+    - Feast of Souls: no longer capped at 20 stacks.
+    - Grim Focus: removing via macro or right-click now prevents reapplication for 10 seconds.
+    - Void-Scarred - Burning Blades reworked: now affects Hungering Slash (was Reap); additionally increases Reap damage by 20%.
+    - Void-Scarred - Untethered Fury buffed: now increases Void Ray damage by 15%.
+    - Void-Scarred - Monster Rising buffed: now increases Collapsing Star damage by 15%.
+    - Void-Scarred - Violent Transformation buffed: additionally causes Hunt to deal 25% increased damage and reset Soul Immolation cooldown.
+    - Void-Scarred - Student of Suffering nerfed: +4% Mastery (was 8%); grants 2 Fury (was 5).
+    - Void-Scarred - Blind Focus nerfed: +2% Cosmic damage (was 3%).
   12.0.1: 'Tier Set: 2pc Void Ray damage +10%. 4pc Collapsing Star damage +10% and generates 10 Fury. All damage reduced by 4% (Aura nerf).'
   '12.0': 'Devourer spec introduced as a new Demon Hunter specialization. Annihilator and Void-Scarred Hero Talent trees added.'
