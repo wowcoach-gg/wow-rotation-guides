@@ -59,53 +59,37 @@ removedMechanics: |
 
 rotation:
   singleTarget: |
-    [Trickster] Single Target Priority:
-    1. Ensure Instant Poison and Atrophic/Numbing Poison are applied.
-    2. Cast Shadowstrike to apply Deathstalker's Mark.
+    Single Target Priority (shared across Trickster and Deathstalker):
+    1. Ensure Instant Poison and Atrophic Poison (Trickster) or Numbing Poison (Deathstalker) are applied before the pull.
+    2. Open with Shadowstrike from Stealth to apply Deathstalker's Mark.
     3. Cast Shadow Dance when you have 6 or more combo points and Secret Technique is ready or Shadow Blades is active.
-    4. Cast Shadow Blades during Shadow Dance.
-    5. Cast Secret Technique during Shadow Dance with 6 or more combo points.
-    6. Cast Coup de Grace with 6 or more combo points.
-    7. Cast Eviscerate with 6 or more combo points.
-    8. Cast Shadowstrike (at full combo points if it would grant the Ancient Arts buff).
-    9. Cast Shadowstrike as primary builder.
-    10. Cast Backstab as filler builder.
-    11. Cast Vanish when Shadow Dance is not up (follow with Shadowstrike).
-    12. Cast Cold Blood (if talented) when low on energy.
+    4. Cast Shadow Dance when you have 2 or fewer combo points and Secret Technique is ready or Shadow Blades is active.
+    5. Cast Shadow Blades during Shadow Dance.
+    6. Cast Secret Technique during Shadow Dance with 6 or more combo points.
+    7. Cast Coup de Grace with 6 or more combo points.
+    8. Cast Eviscerate with 6 or more combo points.
+    9. Cast Shadowstrike whenever you can, otherwise cast Backstab (Trickster) or Goremaw's Bite / Backstab (Deathstalker) to build combo points.
+    10. Cast Vanish when Shadow Dance is not up — follow up with a Shadowstrike.
 
-    [Deathstalker] Single Target Priority:
-    1. Ensure Instant Poison and Atrophic/Numbing Poison are applied.
-    2. Cast Shadowstrike to apply Deathstalker's Mark.
-    3. Cast Shadow Dance when you have 2 or fewer combo points and Secret Technique is ready or Shadow Blades is active.
-    4. Cast Shadow Blades during Shadow Dance.
-    5. Cast Secret Technique during Shadow Dance with 6 or more combo points.
-    6. Cast Eviscerate with 6 or more combo points.
-    7. Cast Shadowstrike as primary builder.
-    8. Cast Backstab as filler builder.
-    9. Cast Vanish when Shadow Dance is not up (follow with Shadowstrike).
-    10. Cast Cold Blood (if talented) when low on energy.
+    Important timing rules:
+    - Do not cast Shadow Dance when Shadow Blades has less than 10 seconds left of its cooldown — you always want two Shadow Dances inside a Shadow Blades window.
+    - Thistle Tea does not need to be actively pressed — it auto-activates at low energy.
+    - Avoid casting finishers a couple seconds before Shadow Dance to bank extra Shadow Techniques going in.
+    - For small optimization, ensure Ancient Arts is active when you cast Superchargered finishers (extra Shadowstrike in Dance can force the proc).
   aoe: |
-    [Trickster] AoE Priority:
-    1. Ensure Instant Poison and Atrophic/Numbing Poison are applied.
-    2. Cast Shadowstrike to apply Deathstalker's Mark.
+    AoE Priority (shared across Trickster and Deathstalker):
+    1. Ensure Instant Poison and Atrophic Poison (Trickster) or Numbing Poison (Deathstalker) are applied.
+    2. Open with Shadowstrike from Stealth to apply Deathstalker's Mark.
     3. Cast Shadow Dance when you have 6 or more combo points and Secret Technique is ready or Shadow Blades is active.
-    4. Cast Shadow Blades during Shadow Dance.
-    5. Cast Secret Technique during Shadow Dance with 6 or more combo points.
-    6. Cast Coup de Grace with 6 or more combo points.
-    7. Cast Black Powder with 6 or more combo points.
-    8. On exactly 2 targets: Cast Shadowstrike to build combo points.
-    9. On 3+ targets: Cast Shuriken Storm to build combo points.
-
-    [Deathstalker] AoE Priority:
-    1. Ensure Instant Poison and Atrophic/Numbing Poison are applied.
-    2. Cast Shadowstrike to apply Deathstalker's Mark.
-    3. Cast Shadow Dance when you have 2 or fewer combo points and Secret Technique is ready or Shadow Blades is active.
-    4. Cast Shadow Blades during Shadow Dance.
-    5. Cast Secret Technique during Shadow Dance with 6 or more combo points.
-    6. Cast Eviscerate with 6 or more combo points when Darkest Night is active.
-    7. Cast Black Powder with 6 or more combo points.
-    8. On exactly 2 targets: Cast Shadowstrike to build combo points.
-    9. On 3+ targets: Cast Shuriken Storm to build combo points.
+    4. Cast Shadow Dance when you have 2 or fewer combo points and Secret Technique is ready or Shadow Blades is active.
+    5. Cast Shadow Blades during Shadow Dance.
+    6. Cast Secret Technique during Shadow Dance with 6 or more combo points.
+    7. Cast Eviscerate with 6 or more combo points when Darkest Night is active.
+    8. Cast Coup de Grace with 6 or more combo points.
+    9. Cast Black Powder with 6 or more combo points.
+    10. Cast Goremaw's Bite when not in Shadow Dance (Deathstalker).
+    11. On 3 or fewer targets, build combo points with Shadowstrike if available (instead of Shuriken Storm).
+    12. Cast Shuriken Storm to build combo points at 4+ targets.
   opener: |
     1. Apply Poisons
     2. Shadowstrike (from Stealth to apply Mark)
