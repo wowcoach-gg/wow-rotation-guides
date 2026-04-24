@@ -123,6 +123,10 @@ commonMistakes:
   - 'Holding Summon Infernal for too long instead of using it on cooldown'
 
 patchChanges: |
+  12.0.5:
+  - Conflagration of Chaos reworked: Conflagrate and Shadowburn have 100% chance to guarantee next cast of either ability to critically strike and increase damage by your crit chance.
+  - Chaos Incarnate and Inferno swapped positions in talent tree.
+  - April 17 hotfixes: Hellcaller - Through the Felvine Chaos Bolt bonus to 35% (was 10%); Blackened Soul -50%; Rain of Fire bonus to 6% (was 8%).
   12.0.1:
   - Diabolist: Touch of Rancora damage buff adjusted.
   - Diabolist: New talents Diabolic Oculi, Looks That Kill, and Mind's Eye added.

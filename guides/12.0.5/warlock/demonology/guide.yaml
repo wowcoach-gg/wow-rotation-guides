@@ -126,6 +126,10 @@ commonMistakes:
   - 'Casting Summon Demonic Tyrant on a pack that will die in under 20 seconds — hold for the next pull'
 
 patchChanges: |
+  12.0.5:
+  - Grimoire: Fel Ravager reworked: summons Fel Ravager for 20s; purges 1 beneficial magic effect; turns into Devour Magic while on cooldown.
+  - Antoran Jailer's Soul Barrage reworked: releases volley of Chaos magic dealing Chaos damage to target and up to 10 additional targets within 10 yards.
+  - April 17 hotfixes: All ability damage -4%, Soul Harvester - Demonic Soul -55%, Soul Harvester - Wicked Reaping +50%.
   12.0.1:
   - Fixed opener for situational talent choices.
   - Updated rotations to include Apex Talent (Dominion of Argus) logic.

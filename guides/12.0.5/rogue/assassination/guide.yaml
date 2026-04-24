@@ -151,6 +151,12 @@ commonMistakes:
   - 'Capping Thistle Tea charges instead of using them to smooth out Energy during burst'
 
 patchChanges: |
+  12.0.5:
+  - Negotiable Contract NEW: if target of your Deathmark dies, Deathmark jumps to nearby enemy combatant for remaining duration.
+  - Deathstalker - Deathstalker's Mark reworked: Garrote applies 3 stacks to target; learn Mark for Death. Spending 5+ combo points on Marked target consumes application, dealing 120% Plague damage.
+  - Deathstalker - Mark for Death NEW: move active Deathstalker's Mark to target. 10y range, 20s cooldown, 25 Energy, not on GCD.
+  - Trickster - Cloud Cover reworked: activating Adrenaline Rush creates smoke for 10s; attacks within apply Fazed, stacking up to 2 times; persists 10s after leaving.
+  - Airborne Irritant buffed: Blind has 50% reduced cooldown, 70% reduced duration, applies to all nearby enemies.
   12.0.1:
   - Mythic+ performance and tuning reviewed.
   12.0:

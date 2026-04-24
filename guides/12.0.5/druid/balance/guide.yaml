@@ -145,6 +145,11 @@ commonMistakes:
   - 'Letting charges of Wild Mushroom or New Moon cap instead of keeping them rolling'
 
 patchChanges: |
+  12.0.5:
+  - Meteorites reworked: every Starfall wave drop triggers meteorite on up to 2 targets in range, each dealing Astral damage.
+  - Meteorite projectile damage -30%.
+  - Wrath, Starfire, Starsurge damage +40%.
+  - Sunfire, Moonfire damage +25%.
   12.0.1:
   - Reviewed and updated for Midnight launch.
   12.0:

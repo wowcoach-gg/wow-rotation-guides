@@ -125,6 +125,11 @@ commonMistakes:
   - 'Ignoring Ravage procs as Druid of the Claw, losing high-impact burst opportunities'
 
 patchChanges: |
+  12.0.5:
+  - Unseen Predator R1 buffed: additional effect — Unseen Attack damage reduced if less than 5 combo points and 50 Energy spent on Ferocious Bite.
+  - Unseen Predator R2 reworked: Unseen Attacks increase damage by 8%/15% for 1s per combo point spent; additional applications extend the effect.
+  - Unseen Predator R3 reworked: Tiger's Fury causes Unseen Attack for max damage after next 2 combo-point-generating attacks; Rip and Unseen Attack damage +30%.
+  - Unseen Slash and Unseen Swipe base damage +25%.
   12.0.1:
   - General tuning for Midnight release.
   - Wildstalker single-target recommendation updated.
