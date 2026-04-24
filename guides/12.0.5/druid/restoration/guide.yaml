@@ -68,8 +68,9 @@ rotation:
     2. Keep Lifebloom on the tank (or yourself/ranged if using Lifetreading and the tank is far).
     3. Cast Swiftmend on cooldown. Follow with Rejuvenation if the party is healthy, or Regrowth if they are struggling.
     4. Cast Wild Growth on cooldown to cover light/moderate party damage.
-    5. Use Regrowth (paired with Nature's Swiftness if available) for sharp, instant single-target damage.
+    5. Use Regrowth (paired with Nature's Swiftness if available) to react to sharp, instant single-target damage spikes.
     6. For semi-dangerous DoTs, apply 1-2 Rejuvenations before casting Regrowth.
+    7. In healing downtime, DPS contribution is meaningful in 12.0.5 — Wrath, Starfire, Sunfire and Moonfire all received large damage buffs (+40% / +40% / +25% / +25%). Weave damage casts (either balance-form with Wrath/Starfire, or catweave with Rake/Rip via Fluid Form) whenever you are not healing.
   aoe: |
     [Raid/Dungeon AoE Priority]
     1. Ensure Efflorescence and Lifebloom are active before damage hits.
