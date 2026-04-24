@@ -47,36 +47,52 @@ removedMechanics:
 
 rotation:
   singleTarget: |-
-    1. Cast Flurry if Brain Freeze is active AND Thermal Void is not already active.
-    2. Cast Frozen Orb on cooldown.
-    3. Cast Glacial Spike when available.
-    4. Cast Comet Storm when available.
-    5. Cast Ice Lance if Fingers of Frost is active.
-    6. Cast Ice Lance if Freezing stacks are at 10 or more on target.
-    7. Cast Flurry if you have a charge available (no Brain Freeze).
-    8. Cast Ray of Frost.
-    9. Cast Frostfire Bolt as filler.
-  aoe: |-
-    1. Cast Blizzard if Freezing Rain is active (instant cast, +20% damage from Frozen Orb).
-    2. Cast Flurry with Brain Freeze if Thermal Void is not already active.
+    1. Cast Flurry.
+    2. Cast Flurry if Thermal Void is NOT already active and you have Brain Freeze.
     3. Cast Frozen Orb.
-    4. Cast Glacial Spike (Glacial Shatter talent makes it shatter 5 Freezing stacks instead of applying them).
-    5. Cast Comet Storm (each of 7 comets shatters 1 Freezing stack).
-    6. Cast Blizzard.
-    7. Cast Ice Lance if Fingers of Frost is active or Freezing at 10+ stacks.
-    8. Cast Flurry if a charge is available.
-    9. Cast Frostfire Bolt with Frostfire Empowerment active.
-    10. Cast Ray of Frost.
-    11. Cast Frostfire Bolt.
+    4. Cast Glacial Spike when available.
+    5. Cast Comet Storm.
+    6. Cast Ice Lance at 10 or more stacks of Freezing, or if Fingers of Frost is active.
+    7. Cast Flurry if you have a charge available but no Brain Freeze.
+    8. Cast Ray of Frost.
+    9. Cast Frostfire Bolt.
+    Note: This is functionally "get everything on cooldown" and passively optimize around Thermal Void.
+    Note: Frost continues to use single-target rotation on 2 targets; AoE only takes over at 3+.
+  aoe: |-
+    1. Cast Blizzard if Freezing Rain is active.
+    2. Cast Flurry with Brain Freeze.
+    3. Cast Flurry with Brain Freeze if Thermal Void is NOT already active.
+    4. Cast Frozen Orb.
+    5. Cast Glacial Spike.
+    6. Cast Comet Storm.
+    7. Cast Blizzard.
+    8. Cast Ice Lance if Fingers of Frost is active or you have 10 or more Freezing on the target.
+    9. Cast Flurry if you have a charge available but no Brain Freeze.
+    10. Cast Frostfire Bolt if you have Frostfire Empowerment active.
+    11. Cast Ray of Frost.
+    12. Cast Frostfire Bolt.
+    Note: Cone of Frost is currently undertuned for Frostfire — try to proc Frostfire Empowerment via the rest of the kit instead.
   opener: |-
-    1. Pre-cast Glacial Spike (or Blizzard for AoE) at 2 seconds on countdown.
+    Single-Target Opener:
+    1. Pre-cast Blizzard at 2 seconds on the countdown.
     2. Cast Flurry to start the cooldown.
-    3. Activate Time Warp.
-    4. Cast Glacial Spike.
+    3. Activate Time Warp if popping on pull (otherwise group-scheduled).
+    4. Cast Frostbolt.
     5. Cast Flurry again.
     6. Cast Ray of Frost.
     7. Cast Frozen Orb.
-    8. (AoE only) Cast Comet Storm.
+    8. Follow normal single-target priority.
+
+    AoE Opener:
+    1. Pre-cast Blizzard at 2 seconds on the countdown.
+    2. Cast Flurry to start the cooldown.
+    3. Activate Time Warp if popping on pull.
+    4. Cast Frostbolt.
+    5. Cast Flurry again.
+    6. Cast Ray of Frost.
+    7. Cast Frozen Orb.
+    8. Cast Comet Storm.
+    9. Follow normal AoE priority.
 
 cooldowns:
 - name: Ray of Frost

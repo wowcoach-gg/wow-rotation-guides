@@ -41,34 +41,49 @@ removedMechanics:
 
 rotation:
   singleTarget: |-
-    1. Cast Flurry if Brain Freeze is active AND Thermal Void is not already active.
-    2. Cast Ice Lance if you have 2 Fingers of Frost charges (avoid capping).
-    3. Cast Frozen Orb on cooldown.
-    4. Cast Glacial Spike when available.
-    5. Cast Ice Lance if Fingers of Frost is active.
-    6. Cast Ice Lance if Freezing stacks are at 6 or more on target.
-    7. Cast Flurry if a charge is available (no Brain Freeze).
+    1. Cast Comet Storm (only if talented — not a default Spellslinger pick).
+    2. Cast Flurry with Brain Freeze.
+    3. Cast Flurry with Brain Freeze if Thermal Void is NOT already active.
+    4. Cast Frozen Orb.
+    5. Cast Ice Lance if you have Fingers of Frost.
+    6. Cast Glacial Spike when available.
+    7. Cast Ice Lance whenever you are at or above 6 Freezing on target.
     8. Cast Ray of Frost.
-    9. Cast Frostbolt as filler.
+    9. Cast Flurry.
+    10. Cast Frostbolt as filler.
+    Note: Thermal Void is something you ignore when deciding to Ice Lance — simply hope it consumes more than 6 stacks.
+    Note: Frost continues to use single-target rotation on 2 targets; AoE only takes over at 3+.
   aoe: |-
-    1. Cast Blizzard if Freezing Rain is active (instant cast, +20% damage from Frozen Orb).
-    2. Cast Flurry with Brain Freeze if Thermal Void is not already active.
-    3. Cast Ice Lance if 2 Fingers of Frost charges.
-    4. Cast Frozen Orb.
-    5. Cast Glacial Spike when available.
-    6. Cast Ice Lance if Fingers of Frost active or Freezing at 6+ stacks.
-    7. Cast Flurry if a charge is available.
-    8. Cast Ray of Frost.
-    9. Cast Frostbolt.
-    Required AoE talents: Freezing Rain, Splitting Ice, Fractured Frost, Splintering Ray.
-    Lonely Winter over Water Elemental for AoE.
+    1. Cast Comet Storm (only if talented).
+    2. Cast Blizzard if Freezing Rain is active (instant cast).
+    3. Cast Flurry with Brain Freeze.
+    4. Cast Flurry with Brain Freeze if Thermal Void is NOT already active.
+    5. Cast Frozen Orb.
+    6. Cast Ice Lance if you have Fingers of Frost.
+    7. Cast Glacial Spike when available.
+    8. Cast Ice Lance whenever you are above 6 Freezing on target.
+    9. Cast Ice Nova (if talented).
+    10. Cast Cone of Cold.
+    11. Cast Blizzard if you are fighting 5 or more enemies.
+    12. Cast Flurry.
+    13. Cast Ray of Frost.
+    14. Cast Frostbolt.
+    Note: Non-instant Blizzard is weaker than continuing to generate Splinters to reduce Frozen Orb cooldown — so don't hard-cast Blizzard unless Freezing Rain is active or you have 5+ targets.
   opener: |-
-    1. Pre-cast Frostbolt (or Glacial Spike if available) at 2 seconds on countdown.
-    2. Cast Flurry to start the cooldown.
-    3. Activate Time Warp.
-    4. Cast Frozen Orb.
-    5. Cast Ray of Frost.
-    6. Resume normal single-target priority.
+    Single-Target Opener:
+    1. Pre-cast Frostbolt.
+    2. Cast Ray of Frost.
+    3. Cast Ice Lance.
+    4. Follow normal single-target priority.
+
+    AoE Opener:
+    1. Cast Blizzard.
+    2. Cast Flurry.
+    3. Cast Frozen Orb.
+    4. Cast Ray of Frost.
+    5. Follow normal AoE priority.
+
+    Note: Time Warp is group-scheduled — drop it whenever the raid/group calls for it, not fixed to the opener.
 
 cooldowns:
 - name: Ray of Frost
