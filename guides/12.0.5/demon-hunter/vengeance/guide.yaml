@@ -75,51 +75,73 @@ removedMechanics: |
 
 rotation:
   singleTarget: |
-    [Shared Priority]
-    1. Cast Metamorphosis if you are about to cast it (to avoid wasting procs)
-    2. Cast Soul Cleave or Spirit Bomb if you have 3 stacks of Voidfall (Annihilator)
-    3. Cast Fiery Brand if you are about to reach 2 charges
-    4. Cast Fracture if you have 2 charges, or are about to reach 2 charges
-    5. Cast Immolation Aura on cooldown
-    6. Cast Soul Cleave if you have 5 or more Soul Fragments, and Spirit Bomb is on cooldown
-    7. Cast Sigil of Flame, ideally without overcapping Fury
-    8. Cast Soul Cleave with at least 3 or more Soul Fragments
-    9. Cast Fracture
-    10. Cast Soul Cleave with 2 or fewer Soul Fragments
-    11. Cast Throw Glaive as a filler or when out of range
-
-    [Aldrachi Reaver Adjustments]
-    - Use Reaver's Glaive (replaces Throw Glaive) immediately after consuming 20 souls.
-    - Follow Reaver's Glaive with Fracture (for Reaver's Mark) or Soul Cleave (for Fury of the Aldrachi).
-    - Use Sigil of Spite to activate Art of the Glaive.
+    Single Target Priority (shared across Aldrachi Reaver and Annihilator; Annihilator has extra Voidfall interactions):
+    1. Cast Reaver's Glaive unless you are currently performing an Art of the Glaive combo.
+    2. Cast Fracture buffed by Art of the Glaive as the first ability in the combo.
+    3. Cast Soul Cleave buffed by Art of the Glaive as the second ability in the combo.
+    4. Cast Sigil of Spite on cooldown to activate Art of the Glaive if Reaver's Glaive is not available.
+    5. Cast Fiery Brand when you are close to reaching 2 charges, or when you need a defensive for a mechanic.
+    6. Cast Fiery Brand spenders (Soul Cleave / Spirit Bomb) when any criteria met:
+       - You need Fiery Brand defensively
+       - You are about to cast Metamorphosis
+       - You have 3 stacks of Voidfall (Annihilator)
+       - You are about to reach 2 charges of Fiery Brand
+    7. Cast Metamorphosis unless you currently have 2 or more stacks of Voidfall.
+    8. Cast Soul Cleave with at least 3 Soul Fragments if you have 3 stacks of Voidfall (Annihilator).
+    9. Cast Fracture if you have 2 charges, or are about to reach 2 charges.
+    10. Cast Soul Carver on cooldown.
+    11. Cast Immolation Aura on cooldown, preferably without overcapping Soul Fragments from Fallout.
+    12. Cast Spirit Bomb with 5+ Soul Fragments.
+    13. Cast Soul Cleave with 3+ Soul Fragments.
+    14. Cast Fracture to generate Fury and Soul Fragments.
+    15. Cast Throw Glaive as filler or when out of range.
   aoe: |
-    [Shared Priority]
-    1. Cast Metamorphosis if you are about to cast it
-    2. Cast Soul Cleave or Spirit Bomb if you have 3 stacks of Voidfall (Annihilator)
-    3. Cast Fiery Brand if you are about to reach 2 charges
-    4. Cast Fracture if you have 2 charges, or are about to reach 2 charges
-    5. Cast Immolation Aura on cooldown
-    6. Cast Spirit Bomb on cooldown with at least 5 Soul Fragments
-    7. Cast Fel Devastation
-    8. Cast Soul Cleave if you have 5 or more Soul Fragments, and Spirit Bomb is on cooldown
-    9. Cast Sigil of Flame, ideally without overcapping Fury
-    10. Cast Soul Cleave with at least 3 or more Soul Fragments
-    11. Cast Fracture
-    12. Cast Soul Cleave with 2 or fewer Soul Fragments
-    13. Cast Throw Glaive as a filler or when out of range
+    AoE Priority (shared):
+    1. Cast Reaver's Glaive unless you are currently performing an Art of the Glaive combo.
+    2. Cast Fracture buffed by Art of the Glaive as the first ability in the combo.
+    3. Cast Soul Cleave buffed by Art of the Glaive as the second ability in the combo.
+    4. Cast Sigil of Spite on cooldown to activate Art of the Glaive if Reaver's Glaive is not available.
+    5. Cast Fiery Brand when close to 2 charges or when you need a defensive.
+    6. Cast Fiery Brand spenders when criteria met (see single-target list).
+    7. Cast Metamorphosis unless you currently have 2 or more stacks of Voidfall.
+    8. Cast Spirit Bomb with 5+ Soul Fragments if you have 3 stacks of Voidfall.
+    9. Cast Soul Cleave with at least 3 Soul Fragments if you have 3 stacks of Voidfall.
+    10. Cast Fracture if you have 2 charges, or are about to reach 2 charges.
+    11. Cast Soul Carver on cooldown.
+    12. Cast Immolation Aura on cooldown, preferably without overcapping Soul Fragments from Fallout.
+    13. Cast Spirit Bomb with 5+ Soul Fragments.
+    14. Cast Soul Cleave with 3+ Soul Fragments.
+    15. Cast Throw Glaive as filler or when out of range.
   opener: |
-    [Single Target]
-    1. Pre-place Sigil of Flame 1 second before pull
-    2. Cast Fiery Brand
-    3. Cast Immolation Aura
-    4. Cast Sigil of Spite
-    5. Continue with priority rotation
+    Single-Target Opener:
+    1. Pre-place Sigil of Flame 1 second before you pull.
+    2. Cast Metamorphosis and Infernal Strike.
+    3. Cast Fiery Brand.
+    4. Cast Immolation Aura.
+    5. Cast Sigil of Spite.
+    6. Cast Reaver's Glaive.
+    7. Cast Fracture (Art of the Glaive first).
+    8. Cast Soul Cleave (Art of the Glaive second).
+    9. Cast Fracture.
+    10. Cast Spirit Bomb.
+    11. Cast Soul Carver.
+    12. Cast Metamorphosis (second).
+    13. Continue with priority.
 
-    [AoE]
-    1. Pre-place Sigil of Flame 1 second before pull
-    2. Cast Fiery Brand
-    3. Cast Immolation Aura
-    4. Continue with priority rotation
+    AoE Opener:
+    1. Pre-place Sigil of Flame 1 second before pull.
+    2. Cast Metamorphosis and Infernal Strike.
+    3. Cast Fiery Brand.
+    4. Cast Immolation Aura.
+    5. Cast Sigil of Spite.
+    6. Cast Reaver's Glaive.
+    7. Cast Fracture.
+    8. Cast Soul Cleave.
+    9. Cast Sigil of Spite.
+    10. Cast Spirit Bomb.
+    11. Cast Soul Carver.
+    12. Cast Metamorphosis (second).
+    13. Continue with priority.
 
 cooldowns: |
   - Metamorphosis (2-3min): Major defensive/offensive. Increases Health by 40% and Armor by 200%. Use frequently for damage and survival.
