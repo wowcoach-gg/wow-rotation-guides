@@ -154,6 +154,13 @@ commonMistakes:
   - 'Delaying offensive cooldowns like Avatar or Ravager for too long, losing total casts over a fight.'
 
 patchChanges: |
+  12.0.5:
+  - Colossus - Practiced Strikes buffed: now increases Shield Slam damage by 15% and Revenge/Thunder Clap damage by 15%.
+  - Colossus - Demolish: area strike radius increased to 10 yards (was 8).
+  - Colossus - Dominance of the Colossus buffed: reduces Demolish cooldown by 5s at max Colossal Might stack (was 2s).
+  - Phalanx R1 reworked: Thunder Clap now deals Physical damage wave to enemies in front (April 17 hotfix).
+  - Rend radius increased to 10 yards.
+  - Piercing Howl (PvP): cooldown increased to 90s, radius reduced to 6 yards.
   12.0.1:
   - Mountain Thane: Storm Surge replaces Unstoppable Force.
   - Colossus: Decimator now causes Demolish to apply Deep Wounds to all targets.

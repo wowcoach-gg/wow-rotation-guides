@@ -163,6 +163,16 @@ commonMistakes:
   - 'Applying Atonements too early or too late for a boss mechanic (mis-timing the ramp)'
 
 patchChanges: |
+  12.0.5:
+  - Atonement nerfed: now causes spell damage to heal all Atonement targets for 28% of damage (was 35%).
+  - Power Word: Shield absorption +25%.
+  - Void Shield absorption +25%.
+  - Flash Heal healing +25%.
+  - Shadow Mend healing +25%.
+  - Power Word: Radiance healing +25%.
+  - Plea healing +25%.
+  - Penance damage/healing +20% (April 17 hotfix).
+  - All Discipline damage -12% (April 17 hotfix, non-PvP).
   12.0.1:
   - Oracle redesigned: No active abilities; provides second charge of Penance and passive benefits.
   - Evangelism redesigned: Now instantly casts PW:R and makes next 2 instant.

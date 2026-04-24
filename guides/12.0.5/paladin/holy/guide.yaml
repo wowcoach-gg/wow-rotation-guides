@@ -144,6 +144,18 @@ commonMistakes:
   - 'Not using Flash of Light to consume Infusion of Light when healing is needed'
 
 patchChanges: |
+  12.0.5:
+  - Holy Shock healing +10%.
+  - Word of Glory healing +20% (including Eternal Flame periodic).
+  - Light of Dawn healing +20%.
+  - Eternal Flame healing +20%.
+  - Greater Judgment absorb +250%.
+  - Beacon of the Savior R3 buffed: Flash of Light and Holy Light now move Beacon to their target once per 5 seconds.
+  - Herald of the Sun - Walk Into Light reworked: now increases Infusion of Light occurrence chance by 100% during Avenging Wrath.
+  - Lightsmith - Holy Armaments buffed: now generates 3 Holy Power.
+  - Hammer and Anvil healing +35% (April 17 hotfix).
+  - Rite of Adjuration healing +150% (April 17 hotfix).
+  - Rite of Sanctification: primary stat to 5% (was 2%).
   12.0.1:
   - Light of Dawn: No longer a frontal cone; heals 5 players within 40 yards.
   - Crusader's Might: Redesigned to link Holy Shock and Judgment cooldowns.

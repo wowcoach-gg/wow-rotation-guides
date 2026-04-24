@@ -156,6 +156,12 @@ commonMistakes:
   - 'Holding defensive cooldowns like Enraged Regeneration for emergencies instead of using them proactively'
 
 patchChanges: |
+  12.0.5:
+  - Hack and Slash reworked: Rampage has 100% chance to refund a charge of Raging Blow.
+  - Improved Whirlwind buffed: now causes Whirlwind to apply Rend to all targets if Rend known.
+  - Slayer - Reap the Storm reworked: when Rampage hits 3+ targets via Improved Whirlwind, 20% chance to unleash a flurry of steel, applying Overwhelmed.
+  - Slayer - Unrelenting Onslaught buffed: +20% Bladestorm damage.
+  - Rend radius increased to 10 yards (was 8).
   12.0.1:
   - Single Target Slayer rotation updated to include Avatar.
   - Mythic+ performance reviewed for Mountain Thane and Slayer.
