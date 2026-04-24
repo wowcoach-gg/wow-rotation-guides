@@ -48,20 +48,23 @@ removedMechanics: |
 
 rotation:
   singleTarget: |
-    1. Use Obliterate if you have a proc of Killing Machine. (If 3+ Runes, prioritize KM. If low on Runes, use Rime/Frost Strike first. If at 2 stacks of KM, consume ASAP).
-    2. Use Howling Blast if you have a proc of Rime.
-    3. Use Frost Strike (Prioritize at 5 stacks of Razorice if using Shattering Blade or Frostbane).
-    4. Use Empower Rune Weapon to generate a charge of Killing Machine and 40 Runic Power (Use to avoid casting a naked Obliterate).
-    5. Use a naked Obliterate (Bottom priority; used only as a builder for Runic Power).
+    1. Use Obliterate if you have a proc of Killing Machine (consume ASAP if 2 stacks). Nuance: if 3+ Runes, prioritize KM; if low on Runes and 70+ RP, prefer Rime-Howling Blast or Frost Strike first.
+    2. Use Frost Strike if you have 5 stacks of Razorice (Shattering Blade / Frostbane synergy).
+    3. Use Frost Strike / Frostbane if you have 5 stacks of Razorice.
+    4. Use Howling Blast if you have a proc of Rime.
+    5. Use Frost Strike to spend Runic Power.
+    6. Use Empower Rune Weapon to generate a Killing Machine proc and 40 Runic Power (avoid casting a no-KM Obliterate).
+    7. Use a no-KM Obliterate (bottom priority; only as a builder for Runic Power when nothing else is up).
+    Note: A non-Killing-Machine Obliterate does very little damage and generates no procs — always spend Runic Power on Frost Strike before pressing no-KM Obliterate.
   aoe: |
-    Note: Swap to Frostscythe and Glacial Advance at 3+ targets.
+    Swap to Frostscythe and Glacial Advance at 3+ targets.
     1. Use Frostscythe if you have a proc of Killing Machine.
-    2. Use Remorseless Winter (Required for Cleaving Strikes buff to Frostscythe).
+    2. Use Remorseless Winter (required for Cleaving Strikes buff to Frostscythe).
     3. Use Howling Blast if you have a proc of Rime.
     4. Use Glacial Advance.
-    5. Use Empower Rune Weapon to generate a charge of Killing Machine and 40 Runic Power.
-    6. Use a naked Obliterate.
-    *Note: If at two stacks of Killing Machine, always consume ASAP.*
+    5. Use Empower Rune Weapon to generate a Killing Machine proc and 40 Runic Power.
+    6. Use a no-KM Obliterate.
+    Note: If at two stacks of Killing Machine, always consume ASAP.
   opener: |
     [Single Target Opener]
     1. Remorseless Winter
