@@ -67,7 +67,7 @@ rotation:
     2. Cast Ice Lance if you have two Fingers of Frost.
     3. Cast Frozen Orb.
     4. Cast Glacial Spike when available.
-    5. Cast Ice Lance whenever you are at or above 10 Freezing on target, or you have Fingers of Frost.
+    5. Cast Ice Lance whenever you are at or above 6 Freezing on target, or you have Fingers of Frost.
     6. Cast Flurry.
     7. Cast Ray of Frost.
     8. Cast Frostbolt.
@@ -93,7 +93,7 @@ rotation:
     3. Cast Ice Lance if you have two Fingers of Frost.
     4. Cast Frozen Orb.
     5. Cast Glacial Spike when available.
-    6. Cast Ice Lance whenever you are above 10 Freezing on target, or you have Fingers of Frost.
+    6. Cast Ice Lance whenever you are above 6 Freezing on target, or you have Fingers of Frost.
     7. Cast Flurry.
     8. Cast Ray of Frost.
     9. Cast Blizzard if you are fighting 7 or more enemies.
@@ -127,7 +127,7 @@ cooldowns: |
 
 concepts: |
   - Shatter Rework: Shatter is no longer a Crit bonus but a stacking debuff on the enemy consumed by Ice Lance.
-  - Freezing Stacks: Most spells generate these stacks. Spend them with Ice Lance based on your Hero Talent threshold (10+ for Spellslinger, 6+ for Frostfire).
+  - Freezing Stacks: Most spells generate these stacks. Spend them with Ice Lance based on your Hero Talent threshold (6+ for Spellslinger, 10+ for Frostfire).
   - Mastery (Freeze and Shatter): Increases damage against frozen targets and targets affected by Shatter stacks.
   - Ray of Frost Fragility: Since Ray of Frost is the main cooldown and goes on CD at the start of the cast, any movement or knockback results in a total loss of the cooldown.
   - Spell Transformations: Glacial Spike and Comet Storm are no longer standalone buttons; they transform Frostbolt and Ray of Frost respectively when available.
@@ -138,7 +138,7 @@ concepts: |
 
 commonMistakes:
   - 'Moving or being interrupted during Ray of Frost, wasting the spec’s primary cooldown'
-  - 'Casting Ice Lance at the wrong Freezing stack threshold (should be 10+ for Spellslinger, 6+ for Frostfire)'
+  - 'Casting Ice Lance at the wrong Freezing stack threshold (should be 6+ for Spellslinger, 10+ for Frostfire)'
   - 'Hard-casting Blizzard in AoE when Freezing Rain is not active (unless fighting 7+ targets as Spellslinger)'
   - 'Using Ray of Frost before consuming existing Freezing stacks, leading to massive over-capping'
   - 'Holding Shimmer charges instead of using them to protect Ray of Frost channels'
