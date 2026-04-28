@@ -112,6 +112,10 @@ commonMistakes:
 - 'Unnecessary movement that interrupts hard-casting fillers like Incinerate'
 - Failing to pool shards before a Havoc window
 patchChanges:
+  12.0.5: 'Conflagration of Chaos reworked: Conflagrate and Shadowburn have 100% chance to guarantee
+    next cast of either ability to critically strike and increase damage by your crit chance. Chaos Incarnate
+    and Inferno swapped positions in talent tree. April 17 hotfixes: Hellcaller - Through the Felvine
+    Chaos Bolt bonus to 35% (was 10%); Blackened Soul -50%; Rain of Fire bonus to 6% (was 8%).'
   12.0.1: 'Through the Felvine: Increases damage of shard spenders, effect doubled during Malevolence. Devil Fruit: Wither
     now has a chance to grant Malevolence. Alzzin''s Iniquity: Malevolence grants additional Haste and adds Wither stacks
     on cast.'

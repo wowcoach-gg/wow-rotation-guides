@@ -105,6 +105,10 @@ commonMistakes:
 - Casting Havoc on the primary target instead of the secondary target.
 - Holding Summon Infernal for too long instead of using it to generate resources.
 patchChanges:
+  12.0.5: 'Conflagration of Chaos reworked: Conflagrate and Shadowburn have 100% chance to guarantee
+    next cast of either ability to critically strike and increase damage by your crit chance. Chaos Incarnate
+    and Inferno swapped positions in talent tree. April 17 hotfixes: Hellcaller - Through the Felvine
+    Chaos Bolt bonus to 35% (was 10%); Blackened Soul -50%; Rain of Fire bonus to 6% (was 8%).'
   12.0.1: 'Touch of Rancora: Toned down to a minor damage buff. Diabolic Oculi: New talent; spending shards summons Oculi
     that explode for AoE damage. Looks That Kill: New talent; Oculi cast Diabolic Gaze at your target. Mind''s Eye: New talent;
     Oculi explosions grant 2% Intellect for 10s. Shadowburn: Now usable only on targets below 20% health baseline. Fiendish
