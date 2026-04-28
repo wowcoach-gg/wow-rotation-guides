@@ -84,8 +84,10 @@ cooldowns:
     faster Doomguard returns.'
 - name: 'Grimoire: Imp Lord / Fel Ravager (if talented)'
   cooldown: 1min
-  description: 'Choice node. Imp Lord provides Singe Magic (dispel); Fel Ravager provides Spell Lock (interrupt).
-    Both deal significant damage — highest priority cooldown.'
+  description: 'Choice node. Imp Lord provides Singe Magic (dispel). Fel Ravager (12.0.5 rework) summons
+    Fel Ravager for 20s, purges 1 beneficial magic effect on cast, and turns into Devour Magic while on
+    cooldown — it does NOT provide an interrupt anymore. Both deal significant damage — highest priority
+    cooldown.'
 - name: Power Siphon (if talented)
   cooldown: 30s
   description: 'Sacrifices 2 Wild Imps to grant 2 Demonic Core stacks and buff Demonbolt by 30%. Use when
@@ -135,6 +137,11 @@ commonMistakes:
 - 'Failing to spread Doom via Demonbolt to different targets in AoE'
 - Holding major cooldowns too long instead of using them on cooldown
 patchChanges:
+  12.0.5: 'Grimoire: Fel Ravager reworked: summons Fel Ravager for 20s; purges 1 beneficial magic effect;
+    turns into Devour Magic while on cooldown. Antoran Jailer''s Soul Barrage reworked: releases volley
+    of Chaos magic dealing Chaos damage to target and up to 10 additional targets within 10 yards. April
+    17 hotfixes: All ability damage -4%, Soul Harvester - Demonic Soul -55%, Soul Harvester - Wicked Reaping
+    +50%.'
   12.0.1: 'Touch of Rancora damage bonus toned down. New Diabolist Talents: Diabolic Oculi, Looks That Kill,
     and Mind''s Eye added to the fourth column.'
   '12.0': 'Hand of Gul''dan now always costs 3 Soul Shards. Summon Demonic Tyrant damage now scales dynamically
