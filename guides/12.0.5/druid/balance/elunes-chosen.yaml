@@ -131,6 +131,9 @@ commonMistakes:
 - Refreshing DoTs outside pandemic window (30% remaining) instead of casting fillers.
 - Using Convoke without Moonfire applied to targets, wasting casts on DoT application.
 patchChanges:
+  12.0.5: 'Meteorites reworked: every Starfall wave drop triggers meteorite on up to 2 targets in range,
+    each dealing Astral damage. Meteorite projectile damage -30%. Wrath, Starfire, Starsurge damage +40%.
+    Sunfire, Moonfire damage +25%.'
   12.0.1: Reviewed and updated for Midnight Season 1. Tier set 4pc Shooting Stars proc reduced to 30% (was 40%). Elune's Chosen
     sims within 1% of Keeper of the Grove.
   '12.0': 'Eclipse reworked into active ability with 2 charges on 32s recharge. Warrior of Elune removed. Mastery reworked
