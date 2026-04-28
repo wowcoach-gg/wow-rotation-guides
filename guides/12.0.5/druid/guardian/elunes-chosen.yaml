@@ -164,6 +164,11 @@ commonMistakes:
 - Not using Lunar Beam on cooldown — it's both offensive and defensive.
 - Saving Survival Instincts for emergencies instead of using proactively before known damage.
 patchChanges:
+  12.0.5: 'Wild Guardian R2 buffed: now grants 1 charge/2 charges of Dream Guide or Dream of Cenarius.
+    Wild Guardian R3 buffed: now empowers Maul for 40% additional damage over time. Galactic Guardian
+    reworked: Red Moon interaction updated — Lunar Wrath stacks consumed upon spending 20 Rage. Regrowths
+    from Dream Guide now heal for additional 100%. April 17 hotfixes: Maul/Raze/Ravage -20%, Moonfire
+    -10%, Druid of the Claw Ravage main target -27%, Bestial Strength -10% (now 10%, was 20%).'
   12.0.1: 'Reviewed for Midnight Season 1. EC remains stronger AoE; DotC stronger ST. Both within 4-5% per Method. Tier set:
     2pc Maul/Ravage +10%, Moonfire +10%. 4pc Maul/Ravage 5% chance to proc Galactic Guardian; Moonfire periodic can make next
     Maul/Ravage strike again at 100% effectiveness.'
