@@ -8,7 +8,7 @@ guideVersion: 3
 resourceManagement:
   primaryResource: Mana
   secondaryResource: Holy Power
-  resourceNotes: 'Generate Holy Power with Holy Shock and Flash of Light. Spend Holy Power on Light of Dawn (Raid) or Eternal Flame (Mythic+). Herald of the Sun replaces Word of Glory with Eternal Flame, which adds a heal-over-time component. Judgment is never worth casting in raid due to nerfs to Empyrean Legacy; it sees use only in Mythic+ for damage. Use Shield of the Righteous during downtime to regenerate mana. Infusion of Light has a 10% proc chance from Holy Shock.'
+  resourceNotes: 'Generate Holy Power with Holy Shock and Flash of Light. Spend Holy Power on Light of Dawn (Raid) or Eternal Flame (Mythic+). Herald of the Sun replaces Word of Glory with Eternal Flame, which adds a heal-over-time component. Judgment is a low-priority filler for Herald of the Sun in raid (throughput comes from Dawnlight + Sun''s Avatar, not Hammer and Anvil), so prioritize Holy Shock, Light of Dawn, and Flash of Light first; Hammer of Wrath replaces Judgment during Avenging Wrath. Use Shield of the Righteous during downtime to regenerate mana. Infusion of Light has a 10% proc chance from Holy Shock.'
 maintenanceBuffs:
 - spellId: 0
   spellName: Dawnlight
@@ -41,7 +41,7 @@ rotation:
     6. Cast Flash of Light as your primary filler when generators are on cooldown.
     7. Cast Holy Light when major healing is needed and mana permits (extremely expensive).
     8. Use Shield of the Righteous during downtime to regenerate mana.
-    NOTE: Judgment is NEVER worth casting in raid. Even with Empyrean Legacy talented, it is a significant healing loss compared to Flash of Light.
+    NOTE: Judgment is the lowest-priority spell on this list for Herald of the Sun in raid — Hammer of Wrath replaces it during Avenging Wrath, and outside that window Holy Shock / Light of Dawn / Flash of Light all out-throughput it because Herald's healing comes from Dawnlight and Sun's Avatar (not Hammer and Anvil). It still triggers Crusader's Might when cast, so use it as filler only after the higher-priority spells are unavailable.
   aoe: |-
     Raid AoE Priority:
     1. Cast Divine Toll on cooldown to apply Dawnlight to multiple targets (target an ally for healing).
@@ -89,11 +89,11 @@ concepts:
 - 'Infusion of Light: Has a 10% proc chance from Holy Shock (not guaranteed). Use on Flash of Light for instant, high-value healing. Can use on Judgment in M+ when no healing is needed for extra Holy Power and damage.'
 - 'Beacon of the Savior: Apex talent that automatically targets the lowest health ally. Benefits from all Beacon talents (Commanding Light, Saved by the Light). Rank 3 grants absorb shield and damage reduction every 8 seconds.'
 - 'Mastery: Lightbringer: Healing is stronger based on proximity. Place Beacons on ranged players to extend effective healing range via Beacon of the Lightbringer.'
-- 'Judgment in Raid vs M+: Due to Empyrean Legacy nerfs, Judgment is never worth casting in raid. Flash of Light is strictly better. In M+ Judgment is valuable for damage and the Crusader''s Might cooldown reduction loop.'
+- 'Judgment in Raid vs M+: For Herald of the Sun, Judgment is a low-priority filler in raid because throughput comes from Dawnlight and Sun''s Avatar, not from Hammer and Anvil (which is the Lightsmith-specific synergy). Hammer of Wrath replaces Judgment during Avenging Wrath. Outside the AW window, Holy Shock / Light of Dawn / Flash of Light all out-heal Judgment, so cast it only as filler when those are on cooldown. In M+ Judgment is valuable for damage and the Crusader''s Might cooldown reduction loop.'
 - 'Mana Management: Holy Light provides massive healing but is extremely expensive. Use Shield of the Righteous during downtime to return mana. Holy Paladin is one of the best Innervate targets.'
 - 'ABC (Always Be Casting): Holy Paladin is fast-paced. Always fill globals with a spell, even if suboptimal. Hesitating is worse than casting the wrong spell.'
 - 'Crusader''s Might CDR Loop: Holy Shock reduces Judgment CD and Judgment reduces Holy Shock CD. In M+
-  this creates a fast-paced rotation. In raid, Judgment is not worth casting.'
+  this creates a fast-paced rotation. In raid, Judgment is lower-priority filler for Herald of the Sun (throughput comes from Dawnlight + Sun''s Avatar), so use it only when higher-priority spells are unavailable.'
 removedMechanics:
 - Blessing of Summer / Blessing of the Seasons (Removed in 12.0)
 - Merciful Auras (Removed in 12.0)
@@ -105,7 +105,7 @@ removedMechanics:
 commonMistakes:
 - Overcapping Holy Power by casting a generator while at 5 Holy Power.
 - Casting Avenging Wrath AFTER Divine Toll instead of before, missing burst healing synergy on Dawnlight targets.
-- Casting Judgment in raid, which is always a healing loss compared to Flash of Light after Empyrean Legacy nerfs.
+- Spamming Judgment in raid as if it were Holy Shock — for Herald of the Sun, Judgment is a low-priority filler because throughput comes from Dawnlight + Sun's Avatar, not Hammer and Anvil (Lightsmith).
 - Overusing Holy Light and depleting mana too early in a fight.
 - Targeting enemies with Divine Toll when the priority is group healing.
 - Neglecting to use Divine Toll or Holy Prism on cooldown, leading to low Dawnlight uptime.
