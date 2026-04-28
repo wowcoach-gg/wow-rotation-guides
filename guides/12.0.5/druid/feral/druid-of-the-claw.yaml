@@ -175,6 +175,11 @@ commonMistakes:
 - Using Convoke without ensuring Rip will last through the full channel duration.
 - Holding Feral Frenzy for Tiger's Fury — it doesn't need to be held for CDs.
 patchChanges:
+  12.0.5: 'Unseen Predator R1 buffed: additional effect — Unseen Attack damage reduced if less than 5
+    combo points and 50 Energy spent on Ferocious Bite. Unseen Predator R2 reworked: Unseen Attacks increase
+    damage by 8%/15% for 1s per combo point spent; additional applications extend the effect. Unseen Predator
+    R3 reworked: Tiger''s Fury causes Unseen Attack for max damage after next 2 combo-point-generating attacks;
+    Rip and Unseen Attack damage +30%. Unseen Slash and Unseen Swipe base damage +25%.'
   12.0.1: 'Reviewed for Midnight Season 1. Twin Claw damage +20%. Ravage primary target damage -20%. Dreadful Wound damage
     -20%. Strike for the Heart crit chance reduced to 5% (was 8%). Tier set: 2pc Omen of Clarity gives 5% crit for 4s; 4pc
     Rake damage +20%, Clearcasting boosts Shred/Swipe by 15%.'

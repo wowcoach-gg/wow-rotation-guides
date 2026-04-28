@@ -151,6 +151,11 @@ commonMistakes:
 - Using Convoke without ensuring Rip will last through the full channel.
 - Not spreading Rake in AoE when Double-Clawed Rake is talented.
 patchChanges:
+  12.0.5: 'Unseen Predator R1 buffed: additional effect — Unseen Attack damage reduced if less than 5
+    combo points and 50 Energy spent on Ferocious Bite. Unseen Predator R2 reworked: Unseen Attacks increase
+    damage by 8%/15% for 1s per combo point spent; additional applications extend the effect. Unseen Predator
+    R3 reworked: Tiger''s Fury causes Unseen Attack for max damage after next 2 combo-point-generating attacks;
+    Rip and Unseen Attack damage +30%. Unseen Slash and Unseen Swipe base damage +25%.'
   12.0.1: 'Reviewed for Midnight Season 1. Wildstalker recommended for ST/Raid. Bloodseeker Vines damage -15%. Bursting Growth
     damage -20%. Vigorous Creepers nerfed to 4% (was 6%). Rampancy chance increased to 30% (was 20%). Patient Custodian increased
     to 8% (was 6%). Focused Frenzy damage increase nerfed to 20% (was 40%). Tier set: 2pc Omen of Clarity gives 5% crit for
